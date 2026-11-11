@@ -2,10 +2,13 @@
 
 [![Syncfusion](https://img.shields.io/badge/Syncfusion-Essential%20Studio-6369ff?style=flat-square)](https://www.syncfusion.com/)
 [![Design Direction](https://img.shields.io/badge/Design%20Direction-Scalable%20Framer-1aff75?style=flat-square)](https://scalable.framer.website/)
+[![Live Preview](https://img.shields.io/badge/Live%20Demo-ragazabrian.github.io%2Fsyncfusion--scalable-6369ff?style=flat-square&logo=github)](https://ragazabrian.github.io/syncfusion-scalable/)
 [![Framework](https://img.shields.io/badge/Stack-React%2019%20%2B%20Tailwind-white?style=flat-square)](https://react.dev/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
-A full modern recreation of [Syncfusion®](https://www.syncfusion.com/) enterprise component and document processing platform, completely redesigned following the high-end dark SaaS aesthetic of the [Scalable Framer Template](https://scalable.framer.website/).
+A full modern recreation of [Syncfusion®](https://www.syncfusion.com/) enterprise component and document processing platform, completely redesigned following the exact layout, structure, and high-end dark SaaS aesthetic of the [Scalable Framer Template](https://scalable.framer.website/).
+
+🔗 **Live Public Preview**: **[https://ragazabrian.github.io/syncfusion-scalable/](https://ragazabrian.github.io/syncfusion-scalable/)**
 
 ---
 
