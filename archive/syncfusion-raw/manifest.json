@@ -1,0 +1,98 @@
+{
+  "sourceUrl": "https://www.syncfusion.com/",
+  "markdownUrl": "https://www.syncfusion.com/index.md",
+  "clonedAt": "2026-11-12T05:12:39Z",
+  "metadata": {
+    "title": "React, Blazor, .NET MAUI, Angular, .NET UI Components & Document SDKs | Syncfusion®",
+    "description": "Build faster with enterprise-ready, AI-powered UI components including blazing fast grids, charts, schedulers, and editors. Get PDF, Word, and Excel document SDKs for Blazor, React, Angular, JavaScript, and .NET MAUI.",
+    "company": "Syncfusion, Inc.",
+    "stats": {
+      "enterpriseCustomers": "41,000+",
+      "activeDevelopers": "1,000,000+",
+      "yearsInBusiness": "25+",
+      "uiComponents": "1,600+",
+      "fortune500Coverage": "400+",
+      "majorReleasesPerYear": "4",
+      "g2Badges": "96 (Summer 2026)",
+      "g2Rating": "4.5 / 5 (750+ Reviews)",
+      "capterraRating": "4.5 / 5 (900+ Reviews)"
+    },
+    "supportedFrameworks": [
+      "Blazor",
+      "React",
+      "Angular",
+      "JavaScript",
+      "Vue",
+      "ASP.NET Core",
+      "ASP.NET MVC",
+      "Flutter",
+      ".NET MAUI",
+      "WinForms",
+      "WPF",
+      "WinUI",
+      "UWP"
+    ],
+    "productDivisions": [
+      {
+        "name": "Standalone UI SDKs",
+        "description": "Focused SDKs for complex UI scenarios",
+        "products": [
+          "Grid SDK",
+          "Chart SDK",
+          "Scheduler SDK",
+          "Gantt SDK",
+          "Diagram SDK",
+          "Rich Text Editor SDK",
+          "File Manager SDK"
+        ]
+      },
+      {
+        "name": "Document Solutions",
+        "description": "Process PDF, Word, Excel, PowerPoint, and Markdown files in-app",
+        "products": [
+          "Document SDK (DOCX, PDF, XLSX, PPTX, MD)",
+          "PDF Viewer SDK",
+          "DOCX Editor SDK",
+          "Spreadsheet Editor SDK"
+        ]
+      },
+      {
+        "name": "UI Component Suite (Essential Studio)",
+        "description": "Over 1,600 enterprise UI components across web, desktop, and mobile",
+        "products": [
+          "Essential Studio Enterprise",
+          "Theme Studio (Fluent, Material 3, Bootstrap 5, Tailwind)",
+          "Figma UI Kits"
+        ]
+      },
+      {
+        "name": "AI Tooling & Code Studio",
+        "description": "AI-native IDE and agent tooling that understands Syncfusion APIs",
+        "products": [
+          "Code Studio AI IDE",
+          "Agent Skills & Agentic UI Builder",
+          "MCP Servers for VS Code, Cursor, JetBrains",
+          "AI-Powered UI Components",
+          "Agent Tools for Document SDK"
+        ]
+      },
+      {
+        "name": "Commercial SaaS Built on Essential Studio",
+        "description": "First-party production products dogfooding the suite",
+        "products": [
+          "BoldSign (e-Signatures)",
+          "BoldDesk (Help desk & ticketing)",
+          "Bold BI (Embedded analytics & dashboards)",
+          "Bold Reports (Paginated reporting)"
+        ]
+      }
+    ],
+    "compliance": [
+      "SOC 2 Type II",
+      "GDPR",
+      "WCAG 2.1 AA",
+      "Section 508",
+      "WAI-ARIA"
+    ]
+  }
+}

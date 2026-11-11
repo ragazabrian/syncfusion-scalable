@@ -1,0 +1,2432 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en-US" xml:lang="en-US">
+<head>
+    <meta name="verify-v1" content="IL/CbLrfaZd8dG6yRBxpEcby0Eh9lDgM24Mm3DjkTpQ=" />
+
+    <link rel="dns-prefetch" href="https://cdn-cookieyes.com">
+    <link rel="dns-prefetch" href="https://directory.cookieyes.com">
+    <link rel="dns-prefetch" href="https://log.cookieyes.com">
+    
+         <!-- SENTRY SDK -->
+        <script src="https://cdn.syncfusion.com/scripts/common/sentry/master/main/console-captureV3.min.js" crossorigin="anonymous"> </script>
+        <script>
+            let _sentrySent;
+            const _sentryEvents=['mousemove','scroll','keydown','touchstart'];
+
+            const _sentryListener=()=>{
+                if (_sentrySent) return;
+                _sentrySent=true;
+
+                const sdk = Object.assign(document.createElement('script'), {src: 'https://sentry.syncfusion.com/sdk', async: true, crossOrigin: 'anonymous'});
+
+                sdk.onload=()=>{
+                    document.head.appendChild(Object.assign(document.createElement('script'), { src: 'https://cdn.syncfusion.com/scripts/common/sentry/master/main/sentry-senderV16.min.js', async: true }));
+                };
+
+                document.head.appendChild(sdk);
+                _sentryEvents.forEach(x => removeEventListener(x, _sentryListener));
+            };
+            _sentryEvents.forEach(x=>addEventListener(x,_sentryListener,{once:true,passive:true}));
+        </script>
+
+    <!-- Consent Mode v2 Defaults - MUST be before CookieYes & GTM -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('consent', 'default', {
+            'ad_storage':             'denied',
+            'ad_user_data':           'denied',
+            'ad_personalization':     'denied',
+            'analytics_storage':      'denied',
+            'functionality_storage':  'denied',
+            'personalization_storage': 'denied',
+            'security_storage':       'granted',
+            'wait_for_update':        500
+        });
+    </script>
+    <!-- End Consent Mode v2 Defaults -->
+
+    <!-- Start cookieyes banner (Embeded script(script.js) loaded via Zaraz) -->
+    <script src="https://cdn.syncfusion.com/scripts/common/CookieYes/Master/CookieyesBanner-V3.min.js" defer></script>
+    <!-- End cookieyes banner -->
+    <!-- Google Tag Manager -->
+        <script src="https://cdn.syncfusion.com/scripts/bootstrap/critical-layout.min.js" defer></script>
+    <!-- End Google Tag Manager -->
+    
+        <meta name="googlebot" content="follow, index" />
+        <meta name="ROBOTS" content="follow, index" />
+            <meta name="GOOGLE" content="POSITION, #1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="184cQksH4QrAAtLGvYQxoSFRgPZVWbZT9lZmOU25EjU" />
+        <meta name="facebook-domain-verification" content="i9ux219m6goq37gdlzlajqlmt30tf9" />
+    
+        <meta name="title" content="React, Blazor, .NET MAUI, Angular, .NET UI Components &amp; Document SDKs | Syncfusion&#174;" />
+        <meta name="description" content="
+		Build faster with enterprise-ready, AI-powered UI components including blazing fast grids, charts, schedulers, and editors. Get PDF, Word, and Excel document SDKs for Blazor, React, Angular, JavaScript, and .NET MAUI.
+	" />
+        <meta name="keywords" content=".NET Components and Controls, Syncfusion" />
+        <meta property="fb:app_id" content="1003714633042650" />
+        
+        <meta property="og:title" content="React, Blazor, .NET MAUI, Angular, .NET UI Components &amp; Document SDKs | Syncfusion&#174;" />
+        <meta property="og:description" content="
+		Build faster with enterprise-ready, AI-powered UI components including blazing fast grids, charts, schedulers, and editors. Get PDF, Word, and Excel document SDKs for Blazor, React, Angular, JavaScript, and .NET MAUI.
+	" />
+        <meta property="og:image" content="https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_Logo_Image.png" />
+        <meta property="og:url" content="https://www.syncfusion.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og: site_name" content="Syncfusion.com" />
+        <meta property="twitter:account_id" content="41152441" />
+        
+        <meta property="twitter:title" content="React, Blazor, .NET MAUI, Angular, .NET UI Components &amp; Document SDKs | Syncfusion&#174;" />
+        <meta property="twitter:url" content="https://www.syncfusion.com/" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:description" content="
+		Build faster with enterprise-ready, AI-powered UI components including blazing fast grids, charts, schedulers, and editors. Get PDF, Word, and Excel document SDKs for Blazor, React, Angular, JavaScript, and .NET MAUI.
+	" />
+        <meta property="twitter:image" content="https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_logos.png" />
+    
+
+    
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Syncfusion UI Components & Document SDKs",
+          "description": "Explore Syncfusion's UI components and Document SDKs for building modern applications and efficient document workflows.",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.6,
+            "reviewCount": 2700,
+            "bestRating":5
+          },
+          "url": "https://www.syncfusion.com/"
+        }
+    </script>
+    <!-- Google Structured Data -->
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://www.syncfusion.com/",
+        "name" : "Syncfusion",
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [".hero-title", ".hero-description"]
+        },
+        "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.syncfusion.com/search?keyword={search_term_string}",
+        "query-input": "required name=search_term_string" }
+        }
+    </script>
+
+
+    
+    
+    
+    <link rel="canonical" href="https://www.syncfusion.com" />
+     <link rel="alternate" type="text/markdown" href="https://www.syncfusion.com/index.md" />
+    <link rel="preload" fetchpriority="high" href="https://cdn.syncfusion.com/content/images/home-v4/banner/home-banner-image-v3.webp" as="image" media="(min-width: 768px)">
+
+
+        <title>
+    React, Blazor, .NET MAUI, Angular, .NET UI Components &amp; Document SDKs | Syncfusion&#174;
+</title>
+
+        <link rel="preload" href="https://cdn.syncfusion.com/content/stylesheets/components/bootstrap/Integrity/bootstrap3.7.1.min.css?v1" as="style">
+        <link rel="stylesheet" href="https://cdn.syncfusion.com/content/stylesheets/components/bootstrap/Integrity/bootstrap3.7.1.min.css?v1" type="text/css">
+        <link rel="preload" href="https://cdn.syncfusion.com/content/stylesheets/components/bootstrap/BootstrapLayoutv181.min.css" as="style">
+        <link rel="stylesheet" href="https://cdn.syncfusion.com/content/stylesheets/components/bootstrap/BootstrapLayoutv181.min.css" type="text/css">
+        <link rel="preload" href="https://cdn.syncfusion.com/content/stylesheets/components/bootstrap/DesktopTabBootstrapLayoutV6.min.css" as="style" media="all and (min-width: 767px)">
+        <link rel="stylesheet" href="https://cdn.syncfusion.com/content/stylesheets/components/bootstrap/DesktopTabBootstrapLayoutV6.min.css" type="text/css" media="all and (min-width: 767px)">
+
+
+      
+        <link rel="stylesheet"
+              href="https://cdn.syncfusion.com/content/stylesheets/components/bootstrap/BootstrapLayoutFont.min.css"
+              media="print"
+              onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet"
+                  href="https://cdn.syncfusion.com/content/stylesheets/components/bootstrap/BootstrapLayoutFont.min.css">
+        </noscript>
+
+    
+
+
+
+
+    
+    
+    
+
+    <link rel="preload" href="https://cdn.syncfusion.com/content/stylesheets/Home/master/HomeCommon_v71.min.css" as="style">
+    <link rel="stylesheet" href="https://cdn.syncfusion.com/content/stylesheets/Home/master/HomeCommon_v71.min.css" type="text/css">
+
+    
+    <link rel="preload" href="https://cdn.syncfusion.com/content/stylesheets/common/master/VideoPopUpV4.min.css" as="style">
+    <link rel="stylesheet" href="https://cdn.syncfusion.com/content/stylesheets/common/master/VideoPopUpV4.min.css" type="text/css">
+
+    <link rel="preload" href="https://cdn.syncfusion.com/content/stylesheets/components/Stack/flickity.min.css" as="style">
+    <link rel="stylesheet" href="https://cdn.syncfusion.com/content/stylesheets/components/Stack/flickity.min.css" type="text/css">
+
+    
+
+    <!-- Google Structred Data -->
+    <script type="application/ld+json" async>
+         {
+        "@context" : "https://schema.org",
+         "@type" : "Organization",
+         "@id": "https://www.syncfusion.com/#organization",
+         "name" : "Syncfusion",
+         "url" : "https://www.syncfusion.com/",
+         "sameAs": [
+                     "https://www.facebook.com/Syncfusion/",
+                     "https://x.com/Syncfusion",
+                     "https://www.instagram.com/syncfusionofficial/?hl=en",
+                     "https://in.linkedin.com/company/syncfusion",
+                     "https://www.youtube.com/user/syncfusioninc",
+                     "https://www.pinterest.com/syncfusionofficial/",
+                     "https://www.threads.net/@syncfusionofficial"
+                 ],
+          "email": "support@syncfusion.com",
+          "logo": {
+                         "@type": "ImageObject",
+                         "@id": "https://www.syncfusion.com/#logo",
+                         "url": "https://cdn.syncfusion.com/content/images/company-logos/syncfusion_logo.svg",
+                         "contentUrl": "https://cdn.syncfusion.com/content/images/company-logos/syncfusion_logo.svg",
+                         "caption": "Syncfusion",
+                         "inLanguage": "en-US",
+                         "width": "324",
+                         "height": "315"
+                     }
+         }
+    </script>
+
+
+    <!-- End Facebook Pixel Code -->
+    <!-- Start Reddit Pixel Code -->
+    <script defer>
+        setTimeout(function () {
+            if (typeof zaraz !== 'undefined') {
+                zaraz.track('RedditPageView');
+            }
+        }, 3000);
+    </script>
+    <!-- End Reddit Pixel Code -->
+</head>
+<body>
+     <!-- Google Tag Manager (noscript) -->
+       <!--Interaction-->
+    <noscript>
+        <iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-W8WD8WN"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+    <div id="menu-wrapper">
+        <div class="container main-menu-section">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                    
+    
+
+<div id="menu-container">
+    <div class="syncfusion-logo">
+        <a class="sync-logo-img" title="Syncfusion" aria-label="Syncfusion logo SVG" href="https://www.syncfusion.com/"></a>
+    </div>
+    <div class="menu-with-search">
+        <div class="syncfusion-menu">
+            <nav class="navbar-inverse navbar-default">
+                <div class="navbar-header">
+                    <!-- Visible on screens up to 1260px using custom media query targeting -->
+                    <div class="mobile-header-actions">
+                        <ul id="utility-nav-mobile">
+                            <li class="menu-search-icon-mobile">
+                                <div data-notification-link="search-box">
+                                    <i class="syncfusionmenu-search-mobile search-icon search-icon-header"></i>
+                                    <span class="separator"></span>
+                                </div>
+                            </li>
+                            <li class="menu-signin-button-mobile">
+                                <div class="menu-signin">
+                                        <a href="/account/login?ReturnUrl=/" rel="nofollow" class="login-button default-btn login-btn-menu">Sign In</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse syncfusion-menu-items" id="bs-example-navbar-collapse-1">
+                    <div class="product-nav-wrapper">
+                        <ul class="nav navbar-nav menu-list" id="product-nav">
+
+                                <!-- PRODUCTS placeholder -->
+                                <li id="product-placeholder" class="dropdown sub-menu-list products">
+                                    <button type="button" class="menu-item dropdown-toggle" data-text="PRODUCTS" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products <span style="width: 14px; height: 13px" class="syncfusionlayout-down-arow"></span></button>
+                                    <div class="sub-menu-container dropdown-menu" data-placeholder="products">
+                                    </div>
+                                </li>
+                                <!-- AI-Tools placeholder -->
+                                <li id="ai-tools-placeholder" class="dropdown sub-menu-list ai-tools-menu">
+                                    <button type="button" class="menu-item dropdown-toggle" data-text="AITOOLS" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AI <span style="width: 14px; height: 13px" class="syncfusionlayout-down-arow"></span></button>
+                                    <div class="sub-menu-container dropdown-menu" data-placeholder="ai-tools">
+                                    </div>
+                                </li>
+                                <!-- SOLUTIONS placeholder - Show on specific pages only (after AI Tools) -->
+                                <!-- Enterprises placeholder -->
+                                <li id="enterprise-placeholder" class="dropdown sub-menu-list enterprise">
+                                    <button type="button" class="menu-item dropdown-toggle" data-text="ENTERPRISE" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Enterprise <span style="width: 14px; height: 13px" class="syncfusionlayout-down-arow"></span></button>
+                                    <div class="sub-menu-container dropdown-menu" data-placeholder="enterprise">
+                                    </div>
+                                </li>
+                                <!-- RESOURCES placeholder -->
+                                <li id="resources-placeholder" class="support-menu dropdown sub-menu-list">
+                                    <button type="button" class="menu-item dropdown-toggle" data-toggle="dropdown" data-text="RESOURCES" aria-haspopup="true" aria-expanded="false">
+                                        Resources <span class="syncfusionlayout-down-arow"></span>
+                                    </button>
+                                    <div class="support-menu-container dropdown-menu" role="menu" data-placeholder="resources">
+                                        <div class="container menu-container">
+                                            <div class="learning-and-support-menu">
+                                                <div class="learning-and-support-items">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- Static items -->
+                                <li class="sub-menu-list">
+                                    <a class="menu-item" href="https://www.syncfusion.com/sales/pricing" data-text="PRICING">Pricing</a>
+                                </li>
+                                    <!-- COMPANY placeholder -->
+                                    <li id="company-placeholder" class="company-menu dropdown sub-menu-list">
+                                        <button type="button" class="menu-item dropdown-toggle" data-toggle="dropdown" data-text="COMPANY" aria-haspopup="true" aria-expanded="false">
+                                            About Us <span class="syncfusionlayout-down-arow"></span>
+                                        </button>
+                                        <div class="company-menu-container dropdown-menu" role="menu" data-placeholder="company">
+                                            <div class="container menu-container">
+                                                <div class="company-menu">
+                                                    <div class="company-menu-items">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                            <li class="sub-menu-list free-trail-button try-it-free-button responsive-free-trial ">
+                                <span class="separator-responsive"></span>
+                                    <a class="menu-item btn btn--primary" href="/downloads">
+                                        <span class="btn__text">Get a Free Trial</span>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="nav navbar-nav utility-nav" id="utility-nav">
+                        <li class="menu-search-icon">
+                            <div data-notification-link="search-box">
+                                <i class="syncfusionmenu-search search-icon search-icon-header"></i>
+                                <span class="separator"></span>
+                            </div>
+                        </li>
+                        <li class="menu-signin-button">
+                            <div class="menu-signin">
+
+                                    <a href="/account/login?ReturnUrl=/" rel="nofollow" class="login-button default-btn login-btn-menu">Sign In</a>
+
+                            </div>
+                        </li>
+                        <li class="sub-menu-list free-trail-button try-it-free-button ">
+                                <a class="menu-item btn btn--primary" href="/downloads">
+                                    <span class="btn__text">Get a Free Trial</span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+</nav>
+        </div>
+    </div>
+</div>
+
+                </div>
+                
+
+<div id="logout-section" class="profile-dropdown-wrapper">
+    <!-- Profile Dropdown Menu -->
+    <div class="profile-dropdown-menu dropdown-menu" role="menu">
+        <div class="profile-header">
+            <!-- Avatar in Dropdown -->
+            <div class="profile-avatar-large">
+                U
+            </div>
+
+            <!-- User Info -->
+            <div class="profile-info">
+                <div class="profile-name">User</div>
+                <div class="profile-email"></div>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="profile-divider"></div>
+
+        <!-- Menu Items -->
+        <div class="profile-menu-items">
+            <div class="profile-menu-item">
+                <a href="/account" class="profile-link">My Dashboard</a>
+            </div>
+
+            <!-- Divider before Sign Out -->
+            <div class="profile-divider"></div>
+
+            <div class="profile-menu-item signout-item">
+                <form id="signOutForm" action="/account/logoff" method="post" style="display: none;">
+                </form>
+                <a href="#" onclick="event.preventDefault(); document.getElementById('signOutForm').submit();" oncontextmenu="event.preventDefault();" class="profile-link signout-link">Sign Out</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div id="search-container" class="row">
+
+<form action="/search" method="post"><input name="__RequestVerificationToken" type="hidden" value="g5LlnM0mXVeHVg65Zaa2NClK6v6GSTdc43yLOp68-RfzQ-QiGPV2DBO-5ePzdXp0YY-UKsEw1Qox10U8Nm0IW5zXt_tAz_oDENjxgMO3JR4DVagSS3i1cQ0m4LhsqUixZdgo1w2" />        <div class="col-lg-offset-3 col-lg-5 col-lg-col-md-offset-2 col-md-7 col-sm-offset-2 col-sm-6 col-xs-offset-0 col-xs-8 search">
+            <input type="text" placeholder="Search" id="search" class="content-medium" name="keyword" value="" aria-label="Search" />
+        </div>
+        <div class="col-md-1 col-sm-4 col-xs-4">
+            <button type="submit" class="btn btn--primary search-btn">Search</button>
+        </div>
+</form>    
+    <div>
+        <div class="search-details">
+            Find anything about our product, documentation, and more.
+        </div>
+        <hr />
+            <div id="search-popular-results"></div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+
+
+    <main>
+        
+
+
+    <input id="IsLoggedIn" name="IsLoggedIn" type="hidden" value="False" />
+
+
+<div id="homepage-contents">
+    <div class="hero-banner-section">
+    <section class="hero-banner">
+        <div class="hero-banner-container">
+
+            <div class="hero-badge">
+                <span class="hero-badge-text"> Accelerate development with Syncfusion <a href="/explore/agent-skills/" aria-label="Explore Syncfusion Agent Skills">Agent Skills</a> & <a href="/explore/mcp-servers/" aria-label="Explore Syncfusion MCP Servers">MCP Servers</a> </span>
+            </div>
+
+            <h1 class="hero-banner-title"> Build Business-Critical Apps Faster </h1>
+
+            <p class="hero-banner-description">
+                Build with data grids, charts, and schedulers, and add PDF, Word & Excel workflows — across 13 frameworks. And when you want to build even faster, there's BoldCreate, where AI agents plan, code, and test.
+            </p>
+
+            <div class="hero-cta-group">
+                <div class="nocredit-wrapper">
+                    <a href="/downloads" class="cta-btn cta-primary">
+                        Start a Free Trial
+                    </a>
+                    <div class="NoCreditCardDesktopHome">30-day free trial · No credit card required.</div>
+                </div>
+
+                <div class="schedule-demo">
+                    <a href="/request-demo?tag=home-page-banner-ui-suite-request-demo" class="cta-btn cta-secondary">
+                        Talk to an Expert
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="banner-img-wrapper">
+        <picture>
+            <source media="(max-width: 767px)" data-srcset="https://cdn.syncfusion.com/content/images/home-v4/banner/home-banner-image-v3.webp" type="image/webp">
+            <source media="(min-width:767px)" srcset="https://cdn.syncfusion.com/content/images/home-v4/banner/home-banner-image-v3.webp" type="image/webp">
+            <img style="width:100%;height:100%" alt="Syncfusion Home page banner" loading="lazy">
+        </picture>
+    </div>
+
+    <section class="sdk-grid-section">
+        <div class="container">
+            <div class="hero-banner-section-divider">
+                <span>Start where you save the most</span>
+            </div>
+
+            <div class="hero-banner-sdk-grid">
+                <div class="hero-banner-sdk-group">
+                    <span class="sdk-group-subtitle"> Essential Studio<sup>®</sup> — for building your app's UI & document workflows</span>
+                    <div class="hero-banner-sdk-cards-wrapper">
+                        <div class="hero-banner-sdk-card">
+                            <div class="sdk-card-header">
+                                <span class="hero-banner-sdk-icon">
+                                    <img loading="lazy" width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/home-v4/banner/standalone-sdk-icon-v1.svg" alt="Standalone UI SDKs">
+                                </span>
+
+                                <h2 class="hero-banner-sdk-title">
+                                    Build Application UI
+                                </h2>
+                            </div>
+
+                            <p class="hero-banner-sdk-description">
+                                Build complex UI with focused SDKs, or build complete apps with the UI Suite across web, desktop, and mobile.
+                            </p>
+                            <div class="ui-card-link-wrapper">
+                                <a href="/standalone-ui-sdk" class="hero-banner-sdk-link"> Focused UI SDKs <span class="sf-icon-arrow-right" aria-hidden="true"></span></a>
+                                <a href="/ui-component-suite" class="hero-banner-sdk-link"> UI Suite <span class="sf-icon-arrow-right" aria-hidden="true"></span></a>
+                            </div>                     
+                        </div>
+
+                        <div class="hero-banner-sdk-card">
+                            <div class="sdk-card-header">
+                                <span class="hero-banner-sdk-icon">
+                                    <img loading="lazy" width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/home-v4/banner/document-olutions-icon.svg" alt="Document Solutions">
+                                </span>
+
+                                <h2 class="hero-banner-sdk-title">
+                                    Add Document Workflows
+                                </h2>
+                            </div>
+
+                            <p class="hero-banner-sdk-description">
+                                View, edit, and generate PDF, Word, Excel, and PowerPoint files directly inside your app.
+                            </p>
+
+                            <a href="/document-solutions" class="hero-banner-sdk-link">
+                                Explore Document Tools <span class="sf-icon-arrow-right" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-banner-sdk-group">
+                    <span class="sdk-group-subtitle">
+                        BoldCreate — for AI-assisted development
+                    </span>
+                    <div class="hero-banner-sdk-cards-wrapper">
+                        <div class="hero-banner-sdk-card">
+                            <div class="sdk-card-header">
+                                <span class="hero-banner-sdk-icon hero-banner-sdk-icon-sparkle">
+                                    <img loading="lazy" width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/bold_create_logo_blue_outline.svg" alt="BoldCreate">
+                                </span>
+
+                                <h2 class="hero-banner-sdk-title">
+                                    Build and Test with AI
+                                </h2>
+                            </div>
+
+                            <p class="hero-banner-sdk-description">
+                                BoldCreate’s AI agents plan, build, and test changes in your codebase, with your team in control
+                            </p>
+
+                            <a href="https://boldcreate.ai/" class="hero-banner-sdk-link">
+                                See BoldCreate <span class="sf-icon-arrow-right" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="hero-banner-trust-badges banner-rating">
+        
+
+    <div class="banner-rating">
+        <div class="g2-container">
+            <img src="https://cdn.syncfusion.com/content/images/home-v1/g2-review.svg" width="28" height="28" alt="G2 review" class="g2-logo">
+            <span class="rating-score"> 4.5 / 5</span>
+            <a href="https://www.g2.com/products/syncfusion-essential-studio/reviews" class="rating-reviews">(850+ Reviews)</a>
+        </div>
+        <div class="capterra-review">
+            <img src="https://cdn.syncfusion.com/content/images/home-v1/capetrra-review.svg" alt="Capterra review" width="28" height="28" />
+            <span class="rating-score">4.6 / 5</span>
+            <a href="https://www.capterra.com/p/228226/Essential-Studio/" class="rating-reviews">(950+ Reviews)</a>
+        </div>
+    </div>
+
+        <div class="g2-badges">
+            <img src="https://cdn.syncfusion.com/content/images/home-v4/banner/g2-badge-logo-v1.svg" width="28" height="28" alt="G2 badge" class="g2-logo">
+            <span class="rating-score"> 96 <a href="/blogs/post/syncfusion-96-g2-badges-summer-2026" class="cta-link">G2 Badges </a> in Summer 2026 </span>
+        </div>
+    </div>
+
+    <div class="trusted-company">
+        <div class="container">
+            <p class="trusted-text">Trusted by the world's leading companies</p>
+            <div class="trusted-by-g2">
+                <div class="trusted-by-wrapper">
+                    <picture>
+                        <source media="(max-width: 767px)" data-srcset="https://cdn.syncfusion.com/content/images/home-v4/trusted-companies-mono-img-mobile.webp" type="image/webp">
+                        <source media="(min-width:767px)" data-srcset="https://cdn.syncfusion.com/content/images/home-v4/trusted-companies-mono-img-v1.webp" type="image/webp">
+                        <img style="width:100%;height:100%" alt="Syncfusion Trusted Companies" loading="lazy">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="video-banner">
+    <input id="videoLink" type="hidden" value="https://www.youtube.com/embed/jrV-fJXAXwY" />
+    <div class="modal fade" id="video-modal">
+        <button type="button" class="close" data-dismiss="modal">
+            <img id="modalCloseIcon" src="https://cdn.syncfusion.com/content/images/tutorial-videos/popup-close.svg" loading="lazy" alt="modal close icon" />
+        </button>
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p id="videoFrame"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+         
+    
+
+<section class="company-stats">
+
+    <div class="company-stats-left">
+
+        <div class="company-stats-rating">
+            <div class="g2-container">
+                <img class="g2-image" data-src="https://cdn.syncfusion.com/content/images/home-v4/banner/g2-stats-logo.svg" width="36" height="36" alt="G2 review logo" />
+                <a class="rating-score" href="https://www.g2.com/products/syncfusion-essential-studio/reviews"> <span>4.5 / 5</span> </a>
+                <img class="G2-logo star-rating" data-src="https://cdn.syncfusion.com/content/images/user-reviews/g2-review-rating.svg" width="84" height="18" alt="G2 rating" />                   
+            </div>
+        </div>
+
+        <div class="g2-awards-wrapper"><img data-src="https://cdn.syncfusion.com/content/images/home-v4/banner/stat-badges-image-v2.webp"  width="100%" height="100%" alt="G2 badges" class="company-stats-awards" loading="lazy"></div>
+        <span class="company-stats-compliance-label"> Security &amp; Compliance </span>
+
+        <div class="company-stats-compliance-icons">
+            <img data-src="https://cdn.syncfusion.com/content/images/home-v4/banner/stats-gdpr-logo.svg" alt="GDPR compliant" class="company-stats-compliance-icon" loading="lazy">
+            <img data-src="https://cdn.syncfusion.com/content/images/home-v4/banner/stats-soc-logo.svg" alt="SOC 2 certified" class="company-stats-compliance-icon" loading="lazy">
+            <img data-src="https://cdn.syncfusion.com/content/images/home-v4/banner/stats-wcag-icon.svg" alt="WCAG compliant" class="company-stats-compliance-icon wcag-icon" loading="lazy">
+        </div>
+    </div>
+
+    <div class="company-stats-statistics">
+        <div class="company-stats-stat">
+            <div class="company-stats-stat-value"> <span>47</span><span>K+</span> </div>
+            <div class="company-stats-stat-label"> Enterprise customers </div>
+        </div>
+
+        <div class="company-stats-stat">
+            <div class="company-stats-stat-value"> <span>1M</span><span>+</span> </div>
+            <div class="company-stats-stat-label"> Developers worldwide </div>
+        </div>
+
+        <div class="company-stats-stat">
+            <div class="company-stats-stat-value"> <span>25</span><span>+</span>  </div>
+            <div class="company-stats-stat-label"> Years in business </div>
+        </div>
+
+        <div class="company-stats-stat">
+            <div class="company-stats-stat-value"> <span>1,600</span><span>+</span>  </div>
+            <div class="company-stats-stat-label"> UI components </div>
+        </div>
+
+        <div class="company-stats-stat">
+            <div class="company-stats-stat-value"> <span>400</span><span>+</span> </div>
+            <div class="company-stats-stat-label"> Fortune 500 companies  </div>
+        </div>
+
+        <div class="company-stats-stat"> <span class="company-stats-stat-value">4</span>
+            <span class="company-stats-stat-label">Major releases per year</span>
+        </div>
+    </div>
+
+</section>
+
+        <div class="banner-supported-framework">
+                <p>Works with your stack — pick your framework</p>
+
+            <div class="framework-list">
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/blazor-components"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/SupportedFramework/blazor-dark-icon.svg" alt="Blazor Framework"> <span class="tooltiptext">Blazor</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/react-components"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/SupportedFramework/react.svg" alt="React Framework"> <span class="tooltiptext">React</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/angular-components"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/SupportedFramework/angular.svg" alt="Angular Framework"> <span class="tooltiptext">Angular</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/javascript-ui-controls"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/FileFormats/icon/supported-framework/javascript.svg" alt="JavaScript Framework"> <span class="tooltiptext">JavaScript</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/vue-components"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/SupportedFramework/vue.svg" alt="Vue Framework"> <span class="tooltiptext">Vue</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/aspnet-core-ui-controls"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/FileFormats/icon/supported-framework/dotnet-core.svg" alt="ASP.NET Core Framework"> <span class="tooltiptext">ASP.NET Core</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/aspnet-mvc-ui-controls"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/ui-component-sdk/ASP.NET-MVC.svg" alt="ASP.NET MVC Framework"> <span class="tooltiptext">ASP.NET MVC</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/flutter-widgets"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/FileFormats/icon/supported-framework/flutter.svg" alt="Flutter Framework"> <span class="tooltiptext">Flutter</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/maui-controls"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/FileFormats/icon/supported-framework/dotnet-maui.svg" alt=".NET MAUI Framework"> <span class="tooltiptext">.NET MAUI</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/winforms-ui-controls"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/ui-component-sdk/WinForms.svg" alt="WinForms Framework"> <span class="tooltiptext">WinForms</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/wpf-controls"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/ui-component-sdk/WPF.svg" alt="WPF Framework"> <span class="tooltiptext">WPF</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/winui-controls"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/FT/FileFormats/icon/supported-framework/winui.svg" alt="WinUI Framework"> <span class="tooltiptext">WinUI</span> </a>
+                        </div>
+                        <div class="framework-wrapper">
+                            <a class="tooltip-framework" href="/uwp-ui-controls"> <img width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/demos/icons/uwp.svg" alt="UWP Framework"> <span class="tooltiptext">UWP</span> </a>
+                        </div>
+            </div>
+        </div>
+
+
+
+
+<section class="vendor-lifecycle-section">
+    <div class="vendor-lifecycle-container">
+
+            <h2 class="vendor-lifecycle-title">One Vendor Across Your Whole App Development Lifecycle</h2>
+        
+            <p class="vendor-lifecycle-desc">One vendor for application UI and document processing means one support relationship and one security review — instead of several of each. Take a focused SDK, complete document tools, or the full suite — all part of Essential Studio.</p>
+
+        <div class="vendor-lifecycle-panel-wrapper">
+            <div class="vendor-lifecycle-scroll" id="vendor-lifecycle-scroll">
+
+                            <div class="vendor-tab-panel" id="standalone-sdk" data-tab-panel>
+                                    <div class="vendor-panel-inner">
+                                        <div class="vendor-panel-side">
+                                                <h3 class="vendor-panel-side-title">01 - Standalone UI SDKs</h3>
+                                            
+                                                <p class="vendor-panel-side-desc">Focused SDKs for building complex UI scenarios.</p>
+                                            
+                                            <div class="vendor-left-image">
+                                                    <img data-src="https://cdn.syncfusion.com/content/images/home-v4/banner/ui-component-suite-banner-image.webp?v=06112026141922" width="100%" height="100%" alt="Standalone UI SDK Dashboard" class="card-image hidden-xs" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <div class="vendor-panel-list">
+                                                <h3 class="vendor-panel-main-title">Choose an SDK by what you're building</h3>
+                                            
+                                                <p class="vendor-panel-side-desc">Take just the control your application area needs — each SDK ships complete, with support and updates.</p>
+                                                                                                <div class="vendor-panel-row">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">Data-rich apps &amp; dashboards</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">Dashboards, reports &amp; high-volume data screens.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="/grid-sdk" class="vendor-sdk-pill">Grid SDK</a>                                                                                                                                        
+                                                                        <a href="/chart-sdk" class="vendor-sdk-pill">Chart SDK</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="vendor-panel-row">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">Planning &amp; workflow apps</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">Scheduling, planning &amp; process-driven UIs.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="/scheduler-sdk" class="vendor-sdk-pill">Scheduler SDK</a>                                                                                                                                        
+                                                                        <a href="/gantt-sdk" class="vendor-sdk-pill">Gantt SDK</a>                                                                                                                                        
+                                                                        <a href="/diagram-sdk" class="vendor-sdk-pill">Diagram SDK</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="vendor-panel-row vendor-panel-row-last">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">Content authoring &amp; file apps</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">Rich editing &amp; file workflows.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="/rich-text-editor-sdk" class="vendor-sdk-pill">Rich Text Editor SDK</a>                                                                                                                                        
+                                                                        <a href="/file-manager-sdk" class="vendor-sdk-pill">File Manager SDK</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="vendor-tab-panel" id="document-solutions" data-tab-panel>
+                                    <div class="vendor-panel-inner">
+                                        <div class="vendor-panel-side">
+                                                <h3 class="vendor-panel-side-title">02 - Document Solutions</h3>
+                                            
+                                                <p class="vendor-panel-side-desc">Process PDF, Word, Excel, PowerPoint, and Markdown files.</p>
+                                            
+                                            <div class="vendor-left-image">
+                                                    <img data-src="https://cdn.syncfusion.com/content/images/home-v4/vendor-lifecycle/document-solutions-card.webp?v=06112026141922" width="100%" height="100%" alt="Document Solutions Dashboard" class="card-image hidden-xs" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <div class="vendor-panel-list">
+                                                <h3 class="vendor-panel-main-title">Build complete document workflows</h3>
+                                            
+                                                <p class="vendor-panel-side-desc">Generate, view, edit, and convert PDF, Word, Excel, and PowerPoint files inside your app — no Office or Acrobat required.</p>
+                                                                                                <div class="vendor-panel-row">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">Generate business documents</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">Create, edit, and convert DOCX, PDF, XLSX, PPTX &amp; MD files.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="/document-sdk" class="vendor-sdk-pill">Document SDK</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="vendor-panel-row">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">View, review &amp; approve PDFs</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">View, annotate, redact, and fill PDFs right in the browser.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="/pdf-viewer-sdk" class="vendor-sdk-pill">PDF Viewer SDK</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="vendor-panel-row">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">Edit Word documents in-app</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">Create, edit &amp; save DOCX without leaving your app.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="/docx-editor-sdk" class="vendor-sdk-pill">DOCX Editor SDK</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="vendor-panel-row vendor-panel-row-last">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">Build spreadsheet-driven apps</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">View, edit, and organize Excel-style workbooks in-app.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="/spreadsheet-editor-sdk" class="vendor-sdk-pill">Spreadsheet Editor SDK</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="vendor-tab-panel" id="ui-components-suite" data-tab-panel>
+                                    <div class="vendor-panel-inner">
+                                        <div class="vendor-panel-side">
+                                                <h3 class="vendor-panel-side-title">03 - UI Component Suite</h3>
+                                            
+                                                <p class="vendor-panel-side-desc">Everything to build an entire app.</p>
+                                            
+                                            <div class="vendor-left-image">
+                                                    <img data-src="https://cdn.syncfusion.com/content/images/home-v4/vendor-lifecycle/ui-components-card-v1.webp?v=06112026141922" width="100%" height="100%" alt="UI Component Suite Dashboard" class="card-image hidden-xs" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <div class="vendor-panel-list">
+                                                <h3 class="vendor-panel-main-title">Every component family, under one license</h3>
+                                            
+                                                <p class="vendor-panel-side-desc">When your app needs more than one control, the suite gives your team the whole toolbox.</p>
+                                                                                                <div class="vendor-panel-row">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">1,600+ UI components</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">Grids, charts, editors, forms, navigation &amp; layout.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="/ui-component-suite" class="vendor-sdk-pill">UI Component Suite</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="vendor-panel-row">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">Every framework covered</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">The same components on web, desktop &amp; mobile.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="/blazor-components" class="vendor-sdk-pill">Blazor</a>                                                                                                                                        
+                                                                        <a href="/react-components" class="vendor-sdk-pill">React</a>                                                                                                                                        
+                                                                        <a href="/maui-controls" class="vendor-sdk-pill">.NET MAUI</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="vendor-panel-row vendor-panel-row-last">
+                                                        <div class="vendor-panel-row-text">
+                                                                <span class="vendor-panel-row-title">See it working, not just documented</span>
+                                                            
+                                                                <span class="vendor-panel-row-caption">Showcase examples for every important control.</span>
+                                                        </div>
+                                                        
+                                                        <div class="vendor-panel-row-links">
+                                                                        <a href="https://showcase.syncfusion.com/" class="vendor-sdk-pill">See Showcase Apps</a>                                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="ai-features-section">
+    <div class="ai-features-container">
+        <div class="ai-features">
+                <div class="ai-features-badge">AI on Both Sides of the Build</div>
+                <h2 class="ai-features-title">Ship AI-Ready Apps — and Build Them With AI</h2>
+            
+                <p class="ai-features-desc">Your developers can generate production-ready Syncfusion UI from plain-language prompts with BoldCreate or their preferred AI platforms. Your users get AI features, from smart input to document automation, without your team having to build them from scratch.</p>
+
+            <div class="ai-features-grid">
+                                    <div class="ai-section-header">
+                                        <span class="ai-section-title">Build faster with AI </span>
+                                        <span class="ai-section-description"> — Help developers build with Syncfusion more efficiently.</span>
+                                    </div>
+                                    <div class="ai-feature-card">
+                                        <div class="ai-feature-header">
+                                                <span class="ai-feature-icon">
+                                                    <img loading="lazy" width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/home-v4/ship-ai-ready-apps/agent-skill-icon.svg?v=06112026141922" alt="Agent Skills">
+                                                </span>
+                                                                                            <div class="ai-card-heading">                                                  
+                                                        <span class="ai-feature-subtitle">Agent Skills</span>
+                                                    <p class="ai-feature-title">Help your agent build with Syncfusion</p>
+                                                </div>
+                                        </div>
+                                            <p class="ai-feature-desc">Give compatible coding agents guidance on Syncfusion setup, APIs, and recommended patterns.</p>
+                                        <div class="ai-feature-links">
+                                                        <a href="https://www.syncfusion.com/explore/agent-skills/" class="ai-feature-link ai-feature-link-primary">Agent Skills <span class="sf-icon-arrow-right" aria-hidden="true"></span></a>
+                                                        <a href="https://www.syncfusion.com/explore/agentic-ui-builder/" class="ai-feature-link ai-feature-link-secondary">Agentic UI Builder <span class="sf-icon-arrow-right" aria-hidden="true"></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="ai-feature-card">
+                                        <div class="ai-feature-header">
+                                                <span class="ai-feature-icon">
+                                                    <img loading="lazy" width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/home-v4/ship-ai-ready-apps/mcp-server-icon.svg?v=06112026141922" alt="MCP Servers">
+                                                </span>
+                                                                                            <div class="ai-card-heading">                                                  
+                                                        <span class="ai-feature-subtitle">MCP Servers</span>
+                                                    <p class="ai-feature-title">Get Syncfusion guidance in your IDE</p>
+                                                </div>
+                                        </div>
+                                            <p class="ai-feature-desc">Bring Syncfusion documentation and component context directly into compatible coding assistants.</p>
+                                        <div class="ai-feature-links">
+                                                        <a href="https://www.syncfusion.com/explore/mcp-servers/" class="ai-feature-link ai-feature-link-secondary">AI Coding Assistants <span class="sf-icon-arrow-right" aria-hidden="true"></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="ai-section-header">
+                                        <span class="ai-section-title">Add AI to your apps </span>
+                                        <span class="ai-section-description"> — Create smarter UI experiences and automate document work.</span>
+                                    </div>
+                                    <div class="ai-feature-card">
+                                        <div class="ai-feature-header">
+                                                <span class="ai-feature-icon">
+                                                    <img loading="lazy" width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/home-v4/ship-ai-ready-apps/ai-powered-icon.svg?v=06112026141922" alt="AI-Powered Components">
+                                                </span>
+                                                                                            <div class="ai-card-heading">                                                  
+                                                        <span class="ai-feature-subtitle">AI-Powered Components</span>
+                                                    <p class="ai-feature-title">Add smarter interactions to your app</p>
+                                                </div>
+                                        </div>
+                                            <p class="ai-feature-desc">Bring AI-assisted input and experiences to your UI with ready-to-use Syncfusion components.</p>
+                                        <div class="ai-feature-links">
+                                                        <a href="https://www.syncfusion.com/explore/ai/" class="ai-feature-link ai-feature-link-secondary">AI-Powered Components <span class="sf-icon-arrow-right" aria-hidden="true"></span></a>
+                                        </div>
+                                    </div>
+                                    <div class="ai-feature-card">
+                                        <div class="ai-feature-header">
+                                                <span class="ai-feature-icon">
+                                                    <img loading="lazy" width="100%" height="100%" data-src="https://cdn.syncfusion.com/content/images/home-v4/ship-ai-ready-apps/agent-tools-icon.svg?v=06112026141922" alt="Agent Tools for Document SDK">
+                                                </span>
+                                                                                            <div class="ai-card-heading">                                                  
+                                                        <span class="ai-feature-subtitle">Agent Tools for Document SDK</span>
+                                                    <p class="ai-feature-title">Automate document work with AI agents</p>
+                                                </div>
+                                        </div>
+                                            <p class="ai-feature-desc">Let agents create, edit, convert, and extract data from PDF, Word, Excel, and PowerPoint.</p>
+                                        <div class="ai-feature-links">
+                                                        <a href="https://www.syncfusion.com/explore/ai-agent-tools-for-document-sdk/" class="ai-feature-link ai-feature-link-secondary">Agent Tools for Document SDK <span class="sf-icon-arrow-right" aria-hidden="true"></span></a>
+                                        </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="code-studio-section">
+            <div class="code-studio-card">
+                            <span class="code-studio-eyebrow">Developer Productivity Accelerated</span>
+                            <h3 class="code-studio-title">
+Build Apps Faster with BoldCreate
+</h3>
+                            <p class="code-studio-desc">
+Describe what you want to build with Syncfusion® UI components and document solutions. BoldCreate's AI agents help plan, code, and test the implementation, with your team reviewing the results before merging.
+</p>
+                        <div class="cs-steps">
+                            <div class="cs-steps-row">
+                                            <div class="cs-steps-card">
+                                                <img data-src="https://cdn.syncfusion.com/content/images/home-v4/ship-ai-ready-apps/cs-descripe-project-img.webp?v=06112026141922" alt="Prompt panel showing a project description input" class="cs-steps-image" loading="lazy" width="100%" height="100%"/>
+                                            </div>
+                                            <div class="cs-steps-card">
+                                                <img data-src="https://cdn.syncfusion.com/content/images/home-v4/ship-ai-ready-apps/ai-agent-task-checklist.webp?v=06112026141922" alt="AI agent working through a task checklist" class="cs-steps-image" loading="lazy" width="100%" height="100%"/>
+                                            </div>
+                                            <div class="cs-steps-card">
+                                                <img data-src="https://cdn.syncfusion.com/content/images/home-v4/ship-ai-ready-apps/cs-review-accept-img.webp?v=06112026141922" alt="Generated dashboard screen with charts" class="cs-steps-image" loading="lazy" width="100%" height="100%"/>
+                                            </div>
+                            </div>
+
+                            <div class="cs-steps-row cs-steps-caption-row">
+                                            <div class="cs-steps-caption">
+                                                    <p class="cs-steps-title">Describe what you need</p>
+                                                                                                    <p class="cs-steps-subtitle">Review and approve the scope</p>
+                                            </div>
+                                                    <span class="cs-steps-arrow" aria-hidden="true">
+                                                        <img data-src="https://cdn.syncfusion.com/content/images/home-v4/ship-ai-ready-apps/long-arrow-icon-v1.svg" alt="long arrow icon" loading="lazy" />
+                                                    </span>
+                                            <div class="cs-steps-caption">
+                                                    <p class="cs-steps-title">Agents build and test</p>
+                                                                                                    <p class="cs-steps-subtitle">Follow progress in BoldCreate</p>
+                                            </div>
+                                                    <span class="cs-steps-arrow" aria-hidden="true">
+                                                        <img data-src="https://cdn.syncfusion.com/content/images/home-v4/ship-ai-ready-apps/long-arrow-icon-v1.svg" alt="long arrow icon" loading="lazy" />
+                                                    </span>
+                                            <div class="cs-steps-caption">
+                                                    <p class="cs-steps-title">Review the changes</p>
+                                                                                                    <p class="cs-steps-subtitle">Check the preview, code, and tests</p>
+                                            </div>
+                            </div>
+                        </div>
+                            <p class="code-studio-note">
+Refine with feedback — request changes and review the updated results.
+</p>
+                        <div class="code-studio-cta">
+                                <a href="https://boldcreate.ai/" class="cta-btn cta-primary">Try BoldCreate for Free</a>
+                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="why-standardize-section">
+    <div class="why-standardize-container">
+
+            <div class="why-standardize-badge">Built for Delivery at Scale</div>
+            <h2 class="why-standardize-title">Why Teams Standardize on Syncfusion</h2>
+
+            <p class="why-standardize-desc">The compliance evidence procurement asks for, the modernization path your legacy apps need, and the delivery speed your roadmap depends on — grouped into three decisions you actually have to make.</p>
+
+                <div class="why-standardize-tabs" role="tablist">
+                        <button type="button" class="why-tab-button why-tab-active" data-why-tab="0" role="tab" aria-selected="true">
+                            Build and Ship Faster
+                        </button>
+                        <button type="button" class="why-tab-button" data-why-tab="1" role="tab" aria-selected="false">
+                            Standardize and Consolidate
+                        </button>
+                        <button type="button" class="why-tab-button" data-why-tab="2" role="tab" aria-selected="false">
+                            Modernize and De-Risk
+                        </button>
+                </div>
+                <div class="why-card-grid why-card-grid-active" data-why-panel="0" >
+                                    <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/prompt-to-production.svg?v=06112026141922" alt="Prompt to production UI" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">From prompt to production UI</p>
+                                                            <span class="why-card-subtitle">AI that writes real, compiling code</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">
+Use Syncfusion MCP servers with VS Code, Cursor, BoldCreate, and JetBrains AI Assistant to access current documentation and API details for building with UI components and document solutions.
+</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/one-design-system.svg?v=06112026141922" alt="One design system across applications" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">One design system, every app</p>
+                                                            <span class="why-card-subtitle">Consistency without the CSS churn</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">Fluent, Material 3, Bootstrap 5, and Tailwind themes, Theme Studio, and Figma kits apply your brand and accessibility rules from design tokens — across every framework at once.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/solve-complex-requirement-v1.svg?v=06112026141922" alt="Solve complex UI requirements" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">Solve complex UI requirements</p>
+                                                            <span class="why-card-subtitle">Depth that survives production</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">Virtualized grids, pivot tables, schedulers, gantt, and in-browser PDF, Word, and Excel editors arrive production-ready — each one a multi-month build if your team owned it.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/four-releases-year-v1.svg?v=06112026141922" alt="Predictable software releases and updates" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">Four releases a year, patches weekly</p>
+                                                            <span class="why-card-subtitle">Upgrades you can plan around</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">Four major updates a year, weekly NuGet releases, and breaking changes documented every time — so upgrading is planned work, not a regression hunt.</p>
+                </div>
+
+                </div>
+                <div class="why-card-grid" data-why-panel="1" hidden>
+                                    <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/one-catalogue-for-team.svg?v=06112026141922" alt="One catalog for every team" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">One catalog for every team</p>
+                                                            <span class="why-card-subtitle">One vendor instead of five</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">Every team draws from the same components and Document SDKs — so you get one support relationship, one renewal date, and one security review instead of five of each.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/roi-of-not-building-yourself.svg?v=06112026141922" alt="ROI of not building it yourself" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">The ROI of not building it yourself</p>
+                                                            <span class="why-card-subtitle">Provable, not theoretical</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">Licensing a tested suite costs a fraction of building and maintaining the same controls in-house — and that saving repeats on every project, for every team, every year.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/licensing-finance-can-forecast.svg?v=06112026141922" alt="Licensing finance can forecast" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">Licensing finance can forecast</p>
+                                                            <span class="why-card-subtitle">No surprises at deployment</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">No royalties and no per-server deployment charges — so shipping one more app never changes the invoice.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/quality-support-you-can-rely.svg?v=06112026141922" alt="Quality and support you can rely on" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">Quality and support you can rely on</p>
+                                                            <span class="why-card-subtitle">One relationship, every platform</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">One support desk covers every platform your teams ship on, and it reaches the engineers who wrote the component — not a tier-one queue reading from a script.</p>
+                </div>
+
+                </div>
+                <div class="why-card-grid" data-why-panel="2" hidden>
+                                    <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/modernize-without-rewrite.svg?v=06112026141922" alt="Application modernization without rewriting" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">Modernize without a rewrite</p>
+                                                            <span class="why-card-subtitle">Legacy .NET to Blazor or .NET MAUI</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">Architected for long-lifecycle applications, with the same controls on old and new frameworks and competitive-upgrade guides for every one — so moving WinForms, WPF, or Xamarin forward costs a fraction of a rewrite.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/accessibility-built-in.svg?v=06112026141922" alt="Built-in accessibility compliance" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">Accessibility built in</p>
+                                                            <span class="why-card-subtitle">Compliance without retrofits</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">Section 508, WCAG 2.1, and WAI-ARIA support, including keyboard navigation, ship with the components — so you clear accessibility requirements without retrofitting under deadline.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/security-review-that-passes.svg?v=06112026141922" alt="Enterprise-grade security and compliance" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">A security review that passes</p>
+                                                            <span class="why-card-subtitle">Evidence, not assurances</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">SOC 2 Type 2 (report on request), GDPR compliance, a published disclosure policy, and document processing that stays inside your own .NET environment — offline if needed.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-header">
+                            <span class="why-card-icon">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/source-code-not-blackbox.svg?v=06112026141922" alt="Full source available" loading="lazy">
+                            </span>
+                        <div class="why-card-heading">
+                                <p class="why-card-title">Source code, not a black box</p>
+                                                            <span class="why-card-subtitle">Nothing hidden from your engineers</span>
+                        </div>
+                    </div>
+                        <p class="why-card-desc">Ship with full source: step into our code from your IDE, debug against the real call stack, and extend components instead of working around them — so issues resolve faster.</p>
+                </div>
+
+                </div>
+                <div class="why-static-card">
+                    <div class="why-static-side">
+                        <span class="why-static-badge">
+                                <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/microsoft.svg?v=06112026141922" alt="Microsoft logo" class="why-static-badge-icon" loading="lazy">
+                            Recognized by Microsoft                        </span>
+                            <h3 class="why-static-title">We don't just build controls for .NET MAUI. We help build .NET MAUI.</h3>
+                                                    <p class="why-static-quote">"Syncfusion's commitment to the success of .NET MAUI is incredible and their expertise in this space invaluable."</p>
+                    </div>
+                    <div class="why-static-person">
+                            <img src="https://cdn.syncfusion.com/content/images/home-v4/why-teams-standardize/david-ortinau.svg?v=06112026141922" alt="David Ortinau" class="why-static-avatar" loading="lazy">
+                        <div class="why-static-person-text">
+                                <span class="why-static-person-name">David Ortinau</span>
+                                                            <span class="why-static-person-role">Principal PM, .NET MAUI at Microsoft</span>
+                                                            <a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-welcomes-syncfusion-open-source-contributions/" class="why-static-link cta-link">Read it on the .NET Blog <span class="sf-icon-arrow-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</section>
+
+
+<section class="bold-products-section">
+    <div class="bold-products-container">
+            <div class="bold-section-badge">We Use What We Sell</div>
+            <h2 class="section-title">We Don't Just Sell Essential Studio — We Run Our Own Products on It</h2>
+                    <p class="section-description">BoldSign, BoldDesk, Bold BI, and Bold Reports are commercial SaaS products Syncfusion sells to paying customers — all built on the same components and SDKs you would license. If something can't handle production scale, we hit it before you do.</p>
+
+            <div class="products-grid">
+                        <a class="product-card boldsign-card" href="https://www.boldsign.com/?utm_source=syncfusionhomeotherproducts&amp;amp;utm_medium=referral&amp;amp;utm_campaign=boldsign">
+                                <div class="bold-header-wrapper">
+                                    <div class="product-logo">
+                                        <img src="https://cdn.syncfusion.com/content/images/home-v4/bold-sign-icon.svg?v=06112026141922" alt="BoldSign logo" loading="lazy" aria-hidden="true"/>
+                                    </div>
+                                    <p class="product-title">BoldSign</p>
+                                </div>
+                                                             <p class="product-description">
+			E-signature and document workflows, powered by the same document viewing and processing SDKs in Essential Studio.    </p>
+                                                             <span class="explore-btn boldsign-btn">Explore BoldSign  <span class="sf-icon-arrow-right" aria-hidden="true"></span></span>
+                        </a>
+                        <a class="product-card bolddesk-card" href="https://www.bolddesk.com/?utm_source=syncfusionhomeotherproducts&amp;amp;utm_medium=referral&amp;amp;utm_campaign=bolddesk">
+                                <div class="bold-header-wrapper">
+                                    <div class="product-logo">
+                                        <img src="https://cdn.syncfusion.com/content/images/home-v4/bold-desk-icon.svg?v=06112026141922" alt="BoldDesk logo" loading="lazy" aria-hidden="true"/>
+                                    </div>
+                                    <p class="product-title">BoldDesk</p>
+                                </div>
+                                                             <p class="product-description">
+			Help desk software with data-heavy queues, dashboards, and reporting screens built from our UI components.
+		</p>
+                                                             <span class="explore-btn bolddesk-btn">Explore BoldDesk  <span class="sf-icon-arrow-right" aria-hidden="true"></span></span>
+                        </a>
+                        <a class="product-card boldbi-card" href="https://www.boldbi.com/?utm_source=syncfusionhomeotherproducts&amp;amp;utm_medium=referral&amp;amp;utm_campaign=syncfusion_homepage_boldbiproductlineup">
+                                <div class="bold-header-wrapper">
+                                    <div class="product-logo">
+                                        <img src="https://cdn.syncfusion.com/content/images/home-v4/bold-bi-icon.svg?v=06112026141922" alt="Bold BI logo" loading="lazy" aria-hidden="true"/>
+                                    </div>
+                                    <p class="product-title">Bold BI</p>
+                                </div>
+                                                             <p class="product-description">
+			Embedded analytics with 35+ widget types — charts, gauges, and dashboards driven by our data visualization stack.
+		</p>
+                                                             <span class="explore-btn boldbi-btn">Explore Bold BI  <span class="sf-icon-arrow-right" aria-hidden="true"></span></span>
+                        </a>
+                        <a class="product-card boldreports-card" href="https://www.boldreports.com/?utm_source=syncfusionhomeotherproducts&amp;amp;utm_medium=referral&amp;amp;utm_campaign=syncfusion_homepage_boldreportsproductlineup">
+                                <div class="bold-header-wrapper">
+                                    <div class="product-logo">
+                                        <img src="https://cdn.syncfusion.com/content/images/home-v4/bold-reports-icon.svg?v=06112026141922" alt="Bold Reports logo" loading="lazy" aria-hidden="true"/>
+                                    </div>
+                                    <p class="product-title">Bold Reports</p>
+                                </div>
+                                                             <p class="product-description">
+			RDL-compatible reporting platform for building, migrating, and embedding pixel-perfect reports in web, SaaS, and enterprise applications.
+		</p>
+                                                             <span class="explore-btn boldreports-btn">Explore Bold Reports  <span class="sf-icon-arrow-right" aria-hidden="true"></span></span>
+                        </a>
+            </div>
+    </div>
+</section>
+
+<div class="case-study-slider-section">
+    <div class="case-study-header-segment">
+                <div class="case-study-badge">Customer Outcomes</div>
+            <h2 class="case-study-header">From 450 Hours Saved to "Flawless, Simple Code"</h2>
+                    <p class="case-study-description">Measured results from named customers — and the words developers use when asked.</p>
+        
+    </div>
+    <div class="container">
+
+        <div class="border-container">
+
+            
+            <ul class="button-list">
+
+                <li>
+                    <button title="Igniatek Consultancy" class="active reset-animation">
+                        <img alt="Igniatek Consultancy" width="96" height="34" src="https://cdn.syncfusion.com/content/images/FT/case-study/Igniatek-Logo.svg" loading="lazy"/>
+                            <div class="benefits-text">75% cost reduction</div>
+                        <div class="progress-bar-base"></div>
+                        <div class="progress-bar-fill"></div>
+                    </button>
+                </li>
+                <li>
+                    <button title="McDaniel and Associates Consultants Ltd">
+                        <img alt="McDaniel and Associates Consultants Ltd" width="132" height="42" src="https://cdn.syncfusion.com/content/images/FT/case-study/McDaniel-logo.svg" loading="lazy"/>
+                            <div class="benefits-text">450 hours saved</div>
+                        <div class="progress-bar-base"></div>
+                        <div class="progress-bar-fill"></div>
+                    </button>
+                </li>
+                <li>
+                    <button title="Sistemi">
+                        <img alt="Sistemi" width="98" height="34" src="https://cdn.syncfusion.com/content/images/FT/case-study/Sistemi-Logo.svg" loading="lazy"/>
+                            <div class="benefits-text">1000 hours saved</div>
+                        <div class="progress-bar-base"></div>
+                        <div class="progress-bar-fill"></div>
+                    </button>
+                </li>
+                <li>
+                    <button title="Synchrony Digital">
+                        <img alt="Synchrony Digital" width="140" height="42" src="https://cdn.syncfusion.com/content/images/FT/case-study/Synchrony-Logo.svg" loading="lazy"/>
+                          <div class="benefits-text">2 years of delay avoided</div>  
+                        <div class="progress-bar-base"></div>
+                        <div class="progress-bar-fill"></div>
+                    </button>
+                </li> 
+                <li>
+                    <button title="Capita">
+                        <img alt="Capita" width="100" height="34" src="https://cdn.syncfusion.com/content/images/FT/case-study/Capita-Logo.svg" loading="lazy"/>
+                            <div class="benefits-text">Improved performance</div>
+                        <div class="progress-bar-base"></div>
+                        <div class="progress-bar-fill"></div>
+                    </button>
+                </li>
+                <li>
+                    <button title="Vialto Partners">
+                        <img alt="Vialto Partners" width="98" height="34" src="https://cdn.syncfusion.com/content/images/FT/case-study/VIALTO-Logo.svg" loading="lazy"/>
+                            <div class="benefits-text">Reduced dependencies</div>
+                        <div class="progress-bar-base"></div>
+                        <div class="progress-bar-fill"></div>
+                    </button>
+                </li>
+
+
+            </ul>
+           
+            <div class="carousel ">
+
+                    <div class="carousel-cell">
+                        <div class="content col-lg-5 col-md-5">
+                                <p class="industry-type">Industry</p>
+                                                            <p class="case-study-description">Software development</p>
+
+                            <hr />
+
+                                        <div class="feature-list">
+                                                <img alt="75% cost reduction" width="40" height="40" src="https://cdn.syncfusion.com/content/images/home-v4/cost-reduction.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">75% cost reduction compared to previous solutions</p>
+                                                                                            <p class="case-study-description">Delivered the same scope for a fraction of the in-house cost.</p>
+                                        </div>
+                                        </div>
+                                        <div class="feature-list">
+                                                <img alt="50% faster development cycles" width="40" height="40" src="https://cdn.syncfusion.com/content/images/home-v4/faster-development.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">50% faster development cycles</p>
+                                                                                            <p class="case-study-description">Shipped features without building the tooling first.</p>
+                                        </div>
+                                        </div>
+                        </div>
+
+                                    <div class="col-lg-7 col-md-7 customer-story-col bg-lazy" style="background-image: linear-gradient(180deg, rgba(18, 73, 80, 0.1) 0%, rgba(18, 73, 80, 0.6) 49.15%, #08353B 100%), url(&#39;https://cdn.syncfusion.com/content/images/FT/case-study/casestudy-Igniatek-Consultancy.webp&#39;);?v=06112026141922;">
+
+                                            <a class="customer-card-link" href="/case-studies/software-development/igniatek-cuts-development-time-50-and-costs-75-with-essential-studio/">
+
+                                                <img width="41" height="30" src="https://cdn.syncfusion.com/content/images/FT/case-study/double-quote-yellow-theme.svg" alt="Customer review" loading="lazy"/>
+                                                    <p>“If somebody is looking for a great tool to work with? Yes. I would definitely recommend Syncfusion for anyone who is trying  to develop something meaningful.”</p>
+                                                                                                    <p class="user-details">- Somnath Maji <span>(Founder of Igniatek Consultancy)</span></p>
+
+                                                    <span class="read-story-cta">Read Story <span class="sf-icon-arrow-right"></span></span>
+
+                                            </a>
+
+                                    </div>
+
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="content col-lg-5 col-md-5">
+                                <p class="industry-type">Industry</p>
+                                                            <p class="case-study-description">Utilities (oil and gas)</p>
+
+                            <hr />
+
+                                        <div class="feature-list">
+                                                <img alt="450+ hours saved" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/hours-saved.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header "><span>450</span><span class="subtext"> hours saved</span></p>
+                                                                                            <p class="case-study-description">Streamlined processes and hours of development effort saved.</p>
+                                        </div>
+                                        </div>
+                                        <div class="feature-list">
+                                                <img alt="Flexible features" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/advanced-flexible-features.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">Advanced, flexible features</p>
+                                                                                            <p class="case-study-description">Empowered users through robust and versatile functionality.</p>
+                                        </div>
+                                        </div>
+                        </div>
+
+                                    <div class="col-lg-7 col-md-7 customer-story-col bg-lazy" style="background-image: linear-gradient(180deg, rgba(0, 53, 92, 0) -20.52%, rgba(0, 53, 92, 0.6) 27.39%, #00355C 87.62%), url(&#39;https://cdn.syncfusion.com/content/images/FT/case-study/casestudy-McDaniel.webp&#39;);?v=06112026141922;">
+
+                                            <a class="customer-card-link" href="/case-studies/oil-and-gas/mcdaniel-saves-450-hours-on-oil-gas-reporting-with-wpf/">
+
+                                                <img width="41" height="30" src="https://cdn.syncfusion.com/content/images/FT/case-study/double-quote-yellow-theme.svg" alt="Customer review" loading="lazy"/>
+                                                    <p>“Syncfusion’s tools have taken care of many things so I can focus on developing the application, instead of developing tools for the application.”</p>
+                                                                                                    <p class="user-details">- James Athyal <span>(Software developer, McDaniel &amp; Associates Consultants Ltd)</span></p>
+
+                                                    <span class="read-story-cta">Read Story <span class="sf-icon-arrow-right"></span></span>
+
+                                            </a>
+
+                                    </div>
+
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="content col-lg-5 col-md-5">
+                                <p class="industry-type">Industry</p>
+                                                            <p class="case-study-description">Software and technology</p>
+
+                            <hr />
+
+                                        <div class="feature-list">
+                                                <img alt="Time saving" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/hours-saved.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">Thousands of hours saved</p>
+                                                                                            <p class="case-study-description">Accelerated delivery with enterprise-ready UI components.</p>
+                                        </div>
+                                        </div>
+                                        <div class="feature-list">
+                                                <img alt="File management" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/efficient-file-management.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">Efficient file management</p>
+                                                                                            <p class="case-study-description">Document libraries without building them from scratch.</p>
+                                        </div>
+                                        </div>
+                        </div>
+
+                                    <div class="col-lg-7 col-md-7 customer-story-col bg-lazy" style="background-image: linear-gradient(180deg, rgba(65, 11, 14, 0.16) -10.98%, rgba(65, 11, 14, 0.6) 45.01%, #410B0E 100%), url(&#39;https://cdn.syncfusion.com/content/images/FT/case-study/casestudy-Sistemi.webp&#39;);?v=06112026141922;">
+
+                                            <a class="customer-card-link" href="/case-studies/software-and-technology/becoming-a-powerhouse-of-innovation/">
+
+                                                <img width="41" height="30" src="https://cdn.syncfusion.com/content/images/FT/case-study/double-quote-yellow-theme.svg" alt="Customer review" loading="lazy"/>
+                                                    <p>“We really love when the magic happens.” </p>
+                                                                                                    <p class="user-details">- Irvin Dominin <span>(BUILDER WEB Development Manager at Sistemi)</span></p>
+
+                                                    <span class="read-story-cta">Read Story <span class="sf-icon-arrow-right"></span></span>
+
+                                            </a>
+
+                                    </div>
+
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="content col-lg-5 col-md-5">
+                                <p class="industry-type">Industry</p>
+                                                            <p class="case-study-description">Software and technology</p>
+
+                            <hr />
+
+                                        <div class="feature-list">
+                                                <img alt="Time saving" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/avoided-delays.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header "><span>2 Years</span><span class="subtext"> of delay avoided</span></p>
+                                                                                            <p class="case-study-description">Two years of delays prevented with proactive planning.</p>
+                                        </div>
+                                        </div>
+                                        <div class="feature-list">
+                                                <img alt="On-time delivery" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/on-time-delivery.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">On-time delivery</p>
+                                                                                            <p class="case-study-description">Projects delivered on schedule using trusted controls.</p>
+                                        </div>
+                                        </div>
+                        </div>
+
+                                    <div class="col-lg-7 col-md-7 customer-story-col bg-lazy" style="background-image: linear-gradient(179.03deg, rgba(47, 11, 86, 0.2) 4.71%, rgba(47, 11, 86, 0.7) 52.57%, #2F0B56 98.06%), url(&#39;https://cdn.syncfusion.com/content/images/FT/case-study/casestudy-Synchrony-Digital.webp&#39;);?v=06112026141922;">
+
+                                            <a class="customer-card-link" href="/case-studies/software-and-technology/the-community-license-as-a-gateway-to-growth/">
+
+                                                <img width="41" height="30" src="https://cdn.syncfusion.com/content/images/FT/case-study/double-quote-yellow-theme.svg" alt="Customer review" loading="lazy"/>
+                                                    <p>“We are Syncfusion fans because of the way Syncfusion treats the support.” </p>
+                                                                                                    <p class="user-details">- Dr. Howard Rybko <span>(CEO of Synchrony Digital)</span></p>
+
+                                                    <span class="read-story-cta">Read Story <span class="sf-icon-arrow-right"></span></span>
+
+                                            </a>
+
+                                    </div>
+
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="content col-lg-5 col-md-5">
+                                <p class="industry-type">Industry</p>
+                                                            <p class="case-study-description">IT services and IT consulting</p>
+
+                            <hr />
+
+                                        <div class="feature-list">
+                                                <img alt="Improved performance" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/improved-performance.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">Improved performance</p>
+                                                                                            <p class="case-study-description">Large datasets handled with easy customization and quick debugging.</p>
+                                        </div>
+                                        </div>
+                                        <div class="feature-list">
+                                                <img alt="Highly customizable" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/high-customizability.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">Highly customizable</p>
+                                                                                            <p class="case-study-description">Plug-and-play controls with quick template integration.</p>
+                                        </div>
+                                        </div>
+                        </div>
+
+                                    <div class="col-lg-7 col-md-7 customer-story-col bg-lazy" style="background-image: linear-gradient(180deg, rgba(24, 30, 83, 0.4) -0.56%, rgba(24, 30, 83, 0.6) 34.16%, #181E53 100%), url(&#39;https://cdn.syncfusion.com/content/images/FT/case-study/casestudy-Capita.webp&#39;);?v=06112026141922;">
+
+                                            <a class="customer-card-link" href="/case-studies/it-services-and-it-consulting/better-performance-and-customization/">
+
+                                                <img width="41" height="30" src="https://cdn.syncfusion.com/content/images/FT/case-study/double-quote-yellow-theme.svg" alt="Customer review" loading="lazy"/>
+                                                    <p>“I will surely recommend Syncfusion to others as a third-party control because I think it’s very easily customizable.”</p>
+                                                                                                    <p class="user-details">- Jayesh <span>(Technical Team Lead, Capita)</span></p>
+
+                                                    <span class="read-story-cta">Read Story <span class="sf-icon-arrow-right"></span></span>
+
+                                            </a>
+
+                                    </div>
+
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="content col-lg-5 col-md-5">
+                                <p class="industry-type">Industry</p>
+                                                            <p class="case-study-description">Professional services</p>
+
+                            <hr />
+
+                                        <div class="feature-list">
+                                                <img alt="Instant access" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/advanced-flexible-features.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">Instant access</p>
+                                                                                            <p class="case-study-description">Quick availability of features and resources.</p>
+                                        </div>
+                                        </div>
+                                        <div class="feature-list">
+                                                <img alt="Reduced dependencies" width="40" height="40" src="https://cdn.syncfusion.com/content/images/FT/case-study/hours-saved.svg?v=06112026141922" loading="lazy">
+                                            
+                                        <div class="feature-content-wrapper">
+                                                <p class="feature-header ">Reduced dependencies</p>
+                                                                                            <p class="case-study-description">Fewer dependencies for faster development.</p>
+                                        </div>
+                                        </div>
+                        </div>
+
+                                    <div class="col-lg-7 col-md-7 customer-story-col bg-lazy" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -5.68%, rgba(0, 0, 0, 0.6) 55.91%, #000000 100%), url(&#39;https://cdn.syncfusion.com/content/images/FT/case-study/casestudy-Vialto-Partners.webp&#39;);?v=06112026141922;">
+
+                                            <a class="customer-card-link" href="/case-studies/professional-services/content-referencing-made-easy/">
+
+                                                <img width="41" height="30" src="https://cdn.syncfusion.com/content/images/FT/case-study/double-quote-yellow-theme.svg" alt="Customer review" loading="lazy"/>
+                                                    <p>“We definitely wanted Syncfusion to help us with our document processing functionality, and we were happy with and satisfied with Syncfusion.”</p>
+                                                                                                    <p class="user-details">- Arvind Naik <span>(Engineering Lead, Vialto Partners)</span></p>
+
+                                                    <span class="read-story-cta">Read Story <span class="sf-icon-arrow-right"></span></span>
+
+                                            </a>
+
+                                    </div>
+
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="g2-widget" class="home-page">
+        <div class="container">
+            <div class="row">
+                        <div class="g2-subtitle"> Straight from the teams shipping with it </div>
+            </div>
+            <div class="carousel ">
+                            <div class="carousel-cell">
+                                <div class="cards  carousel-section g2-reviews-height">
+                                    <div class="doubleqoutes">
+                                            <img width="100%" height="100%" src="https://cdn.syncfusion.com/content/images/home-v4/users-reward-rating-5.svg?v=13082026124615" alt="Customer rating" loading="lazy">
+                                    </div>
+                                            <div class="heading"> Excellent experience with Syncfusion!</div>
+                                        <div class="description ">
+                                            Syncfusion is a product that makes life easier! I use it to create Blazor applications (server side and webassembly) and the controls speed up development a lot. Furthermore, if needed, it is possible to ask for direct support that is never long in coming!
+                                        </div>
+                                        <div class="g2-author-section">
+                                                    <div class="g2-profile-image">
+                                                        <img src="https://cdn.syncfusion.com/content/g2review/customer-images/Andrea-ScarpanteV1.webp?v=13082026124615" alt="customer-image" loading="lazy" />
+                                                    </div>
+
+                                                <div class="customer-profile name">
+                                                     Andrea Scarpante, <div class="designation">Sydea srl</div>                                                  </div>
+
+
+                                        </div>
+                                                                    </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="cards  carousel-section g2-reviews-height">
+                                    <div class="doubleqoutes">
+                                            <img style="width:32px; height: 28px" src="https://cdn.syncfusion.com/content/images/user-reviews/double-quote-blue-theme.png" alt="Customer quotes" loading="lazy">
+                                    </div>
+                                                                                <div class="customer-video-section" data-toggle="modal" data-target="#video-modal">
+                                               <a  href="https://www.youtube.com/embed/esUA5YM1T7w" onclick="return false;"> <img alt="Cliff Agius" src="https://cdn.syncfusion.com/content/g2review/customer-images/Cliff-Agius.webp?v=13082026124615" style="width:100%; height: 100%" loading="lazy" /> </a> 
+                                                <div class="g2-review-play-button bg-lazy"></div>
+                                                <div class="customer-detail-section">
+                                                    <div class="customer-name">Cliff Agius</div>
+                                                    <div class="customer-designation">Medical IT Pty Ltd</div>
+                                                </div>
+                                            </div>
+                                            <div class="customer-video-caption">
+                                                It is flawless, simple code, and great docs.
+                                            </div>
+                                </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="cards  carousel-section g2-reviews-height">
+                                    <div class="doubleqoutes">
+                                            <img width="100%" height="100%" src="https://cdn.syncfusion.com/content/images/home-v4/users-reward-rating-5.svg?v=13082026124615" alt="Customer rating" loading="lazy">
+                                    </div>
+                                            <div class="heading"> Great support and comprehensive product suite</div>
+                                        <div class="description ">
+                                            I use a lot of their DocIO toolkit.  The support they provide for that is something to aspire to - really great.
+                                        </div>
+                                        <div class="g2-author-section">
+                                                    <div class="g2-profile-image">
+                                                        <img src="https://cdn.syncfusion.com/content/g2review/customer-images/Ian-YatesV2.webp?v=13082026124615" alt="customer-image" loading="lazy" />
+                                                    </div>
+
+                                                <div class="customer-profile name">
+                                                    Ian Yates, <div class="designation">Medical IT Pty Ltd </div>                                                  </div>
+
+
+                                        </div>
+                                                                    </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="cards  carousel-section g2-reviews-height">
+                                    <div class="doubleqoutes">
+                                            <img style="width:32px; height: 28px" src="https://cdn.syncfusion.com/content/images/user-reviews/double-quote-blue-theme.png" alt="Customer quotes" loading="lazy">
+                                    </div>
+                                                                                <div class="customer-video-section" data-toggle="modal" data-target="#video-modal">
+                                               <a  href="https://www.youtube.com/embed/Sa4Yq4I3dPk" onclick="return false;"> <img alt="Zach Grigor" src="https://cdn.syncfusion.com/content/g2review/customer-images/Zach-Grigor.webp?v=13082026124615" style="width:100%; height: 100%" loading="lazy" /> </a> 
+                                                <div class="g2-review-play-button bg-lazy"></div>
+                                                <div class="customer-detail-section">
+                                                    <div class="customer-name">Zach Grigor</div>
+                                                    <div class="customer-designation">Medical IT Pty Ltd</div>
+                                                </div>
+                                            </div>
+                                            <div class="customer-video-caption">
+                                                We have been using Syncfusion for a fair while now and it’s just, it’s so simple and it just works. 
+                                            </div>
+                                </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="cards  carousel-section g2-reviews-height">
+                                    <div class="doubleqoutes">
+                                            <img width="100%" height="100%" src="https://cdn.syncfusion.com/content/images/home-v4/users-reward-rating-4.5.svg?v=13082026124615" alt="Customer rating" loading="lazy">
+                                    </div>
+                                            <div class="heading"> The complete component set</div>
+                                        <div class="description ">
+                                            It is the most complete component set available. Also very handy is the fact that there is a community edition, this gives me the opportunity to test thing at home without buying a separate license.
+                                        </div>
+                                        <div class="g2-author-section">
+                                                    <div class="g2-profile-image">
+                                                        <img src="https://cdn.syncfusion.com/content/g2review/customer-images/Johan-VisserV3.webp?v=13082026124615" alt="customer-image" loading="lazy" />
+                                                    </div>
+
+                                                <div class="customer-profile name">
+                                                    Johan Visser, <div class="designation">H and T Pawnbrokers </div>                                                  </div>
+
+
+                                        </div>
+                                                                    </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="cards  carousel-section g2-reviews-height">
+                                    <div class="doubleqoutes">
+                                            <img style="width:32px; height: 28px" src="https://cdn.syncfusion.com/content/images/user-reviews/double-quote-blue-theme.png" alt="Customer quotes" loading="lazy">
+                                    </div>
+                                                                                <div class="customer-video-section" data-toggle="modal" data-target="#video-modal">
+                                               <a  href="https://www.youtube.com/embed/XpnhWpsx4NQ" onclick="return false;"> <img alt="Shaun Lawrence" src="https://cdn.syncfusion.com/content/g2review/customer-images/Shaun-Lawrence.webp?v=13082026124615" style="width:100%; height: 100%" loading="lazy" /> </a> 
+                                                <div class="g2-review-play-button bg-lazy"></div>
+                                                <div class="customer-detail-section">
+                                                    <div class="customer-name">Shaun Lawrence</div>
+                                                    <div class="customer-designation">Medical IT Pty Ltd</div>
+                                                </div>
+                                            </div>
+                                            <div class="customer-video-caption">
+                                                We use the Image Editor and all things like that to really make our application much more user-friendly. 
+                                            </div>
+                                </div>
+                            </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+    <div class="customer-stories-cta">
+        <a href="https://www.syncfusion.com/case-studies/" class="cta-btn cta-primary case-study-btn">
+            Read the Customer Stories <span class="sf-icon-arrow-right" aria-hidden="true"></span>
+        </a>
+        <a href="https://www.g2.com/products/syncfusion-essential-studio/reviews" class="cta-btn cta-secondary g2-review-btn">
+            <img data-src="https://cdn.syncfusion.com/content/images/user-reviews/g2-banner-logo.svg" width="100%" height="100%" alt="G2 badge" class="g2-logo"> See All 850+ G2 Reviews <span class="sf-icon-arrow-right" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <section id="free-trial-section" class="bg-lazy">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                    <div class="content-section">
+                        <h2 class="main-title">
+                           See it Running in Your App Today
+                        </h2>
+                        <div class="features-list">
+                            <ul class="feature-items">
+                                        <li class="feature-item">
+                                            <span class="feature-text">Put Syncfusion UI components, Document SDKs, and AI tooling to work with your real data and workflows. Evaluate the platform for 30 days in your own environment — no credit card required.</span>
+                                        </li>
+                            </ul>
+                        </div>
+                        <div class="Free-button-section">
+                                        <div class="download-btn-container">
+                                            <a href="/downloads?tag=es-seo-home-page-section-trial" class="btn cta-btn cta-primary">Start a Free Trial</a>
+                                        </div>
+                                        <div class="download-btn-container">
+                                            <a href="request-demo?tag=es-seo-home-page-section-trial" class="btn cta-link">Talk to an Expert</a>
+                                        </div>
+                        </div>
+                            <div class="no-credit-card">
+                                30-day free trial &#183; No credit card required &#183; Support from the engineers who build it
+                            </div>
+                                                            <div class="known-features">
+                                        Know what you need? Evaluate just that: 
+                                            <span class="dropdown-list">
+
+                                                            <div class="dropdown-wrapper inline">
+                                                                <button class="btn-dropdown" id="dropdownButton1">
+                                                                    <span class="btn-text">
+                                                                        UI Components 
+                                                                        <svg class="dropdown-icon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                                <div class="dropdown-menu" id="dropdown1">
+                                                                                <a class="dropdown-item" href="/downloads/grid-sdk?tag=es-seo-home-page-section-trial">Grid SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/chart-sdk?tag=es-seo-home-page-section-trial">Chart SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/scheduler-sdk?tag=es-seo-home-page-section-trial">Scheduler SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/gantt-sdk?tag=es-seo-home-page-section-trial">Gantt SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/rich-text-editor-sdk?tag=es-seo-home-page-section-trial">Rich Text Editor SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/diagram-sdk?tag=es-seo-home-page-section-trial">Diagram SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/file-manager-sdk?tag=es-seo-home-page-section-trial">File Manager SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/ui-component-suite?tag=es-seo-home-page-section-trial">UI Component Suite</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dropdown-wrapper inline">
+                                                                <button class="btn-dropdown" id="dropdownButton2">
+                                                                    <span class="btn-text">
+                                                                        Document Solutions 
+                                                                        <svg class="dropdown-icon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </button>
+                                                                <div class="dropdown-menu" id="dropdown2">
+                                                                                <a class="dropdown-item" href="/downloads/document-sdk?tag=es-seo-home-page-section-trial">Document SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/pdf-viewer-sdk?tag=es-seo-home-page-section-trial">PDF Viewer SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/docx-editor-sdk?tag=es-seo-home-page-section-trial">DOCX Editor SDK</a>
+                                                                                <a class="dropdown-item" href="/downloads/spreadsheet-editor-sdk?tag=es-seo-home-page-section-trial">Spreadsheet Editor SDK</a>
+                                                                </div>
+                                                            </div>
+                                            </span>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+    <a id="smooth-scroll" class="back-to-top inner-link active" href="#" data-scroll-class="100vh:active" style="display: none;">
+        <img width="15" height="9" src="https://cdn.syncfusion.com/content/images/common/up-arrow.svg" alt="Up arrow icon" loading="lazy">
+    </a>
+
+    </main>
+
+    
+
+    
+
+    <div id="footer-warpper" class="segment">
+        <div class="container">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 hidden-xs content-list products-footer-section">
+							    <div class=" content-medium">EXPLORE OUR PRODUCTS</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="/ui-component-suite" aria-label="UI Component Suite"> UI Component Suite</a></li>
+									    <li class="content-small"><a href="/grid-sdk" aria-label="Grid SDK"> Grid SDK</a></li>
+									    <li class="content-small"><a href="/chart-sdk" aria-label="Chart SDK"> Chart SDK</a></li>
+									    <li class="content-small"><a href="/scheduler-sdk" aria-label="Scheduler SDK"> Scheduler SDK</a></li>
+									    <li class="content-small"><a href="/gantt-sdk" aria-label="Gantt SDK"> Gantt SDK</a></li>
+									    <li class="content-small"><a href="/rich-text-editor-sdk" aria-label="Rich Text Editor SDK"> Rich Text Editor SDK</a></li>
+									    <li class="content-small"><a href="/diagram-sdk" aria-label="Diagram SDK"> Diagram SDK</a></li>
+									    <li class="content-small"><a href="/file-manager-sdk" aria-label="File Manager SDK"> File Manager SDK</a></li>
+									    <li class="content-small"><a href="/document-sdk" aria-label="Document SDK"> Document SDK</a></li>
+									    <li class="content-small"><a href="/pdf-viewer-sdk" aria-label="PDF Viewer SDK"> PDF Viewer SDK</a></li>
+									    <li class="content-small"><a href="/docx-editor-sdk" aria-label="DOCX Editor SDK"> DOCX Editor SDK</a></li>
+									    <li class="content-small"><a href="/spreadsheet-editor-sdk" aria-label="Spreadsheet Editor SDK"> Spreadsheet Editor SDK</a></li>
+									    <li class="content-small"><a href="https://boldcreate.ai/" aria-label="BoldCreate">AI Development Platform</a></li>
+									    <li class="content-small"><a href="https://www.boldbi.com/" aria-label="Analytics Platform">Analytics Platform</a></li>
+									    <li class="content-small"><a href="https://www.boldreports.com" aria-label="Reporting Platform">Reporting Platform</a></li>
+									    <li class="content-small"><a href="https://boldsign.com/?utm_source=syncfusionnavfooter&utm_medium=referral&utm_campaign=boldsign" aria-label="eSignature Software and API">eSignature Software and API</a></li>
+									    <li class="content-small"><a href="https://www.bolddesk.com/?utm_source=syncfusionnavfooter&utm_medium=referral&utm_campaign=bolddesk" aria-label="Customer Service Software">Customer Service Software</a></li>
+									    <li class="content-small"><a href="https://www.bolddesk.com/knowledge-base-software?utm_source=syncfusionnavfooter&utm_medium=referral&utm_campaign=knowledgebase_bolddesk" aria-label="Knowledge Base Software">Knowledge Base Software</a></li>
+						    </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 hidden-xs content-list resources-footer-section">
+							    <div class=" content-medium">GET PRODUCTS</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="/downloads" aria-label="Free Trial">Free Trial</a></li>
+									    <li class="content-small"><a href="/sales/pricing" aria-label="Pricing">Pricing</a></li>
+						    </ul>
+							    <div class=" content-medium">FREE TOOLS</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-pdf-tools/unlock-pdf" aria-label="Unlock PDF">Unlock PDF</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-pdf-tools/merge-pdf/" aria-label="Merge PDF">Merge PDF</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-pdf-tools/compress-pdf" aria-label="Compress PDF">Compress PDF</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-pdf-tools/xps-to-pdf" aria-label="XPS to PDF">XPS to PDF</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-pdf-tools/organize-pdf" aria-label="Organize PDF">Organize PDF</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-tools/online-floor-planner/" aria-label="Floor Planner">Floor Planner</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-tools/online-docx-editor/" aria-label="DOCX Editor">DOCX Editor</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-tools/online-excel-editor/" aria-label="Excel Editor">Excel Editor</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-tools/online-markdown-to-html-converter/" aria-label="Markdown to HTML Converter">Markdown to HTML Converter</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/free-tools/" aria-label="More Free Tools">
+						More Free Tools  ❯
+					</a></li>
+						    </ul>
+							    <div class=" content-medium">UI KITS</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="https://www.syncfusion.com/essential-maui-ui-kit" aria-label=".NET MAUI UI Kit">.NET MAUI UI Kit</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/essential-react-ui-kit" aria-label="React UI Kit">React UI Kit</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/essential-blazor-ui-kit" aria-label="Blazor UI Kit">Blazor UI Kit</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/essential-angular-ui-kit" aria-label="Angular UI Kit">Angular UI Kit</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/pages/figma-ui-kits/" aria-label="Web Figma UI Kit">Web Figma UI Kit</a></li>
+						    </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 hidden-xs content-list learning-support-footer">
+							    <div class=" content-medium">RESOURCES</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="/succinctly-free-ebooks" aria-label="Ebooks">Ebooks</a></li>
+									    <li class="content-small"><a href="/resources/techportal/whitepapers" aria-label="White Papers">White Papers</a></li>
+									    <li class="content-small"><a href="/case-studies/" aria-label="Case Studies">Case Studies</a></li>
+									    <li class="content-small"><a href="/faq/" aria-label="Technical FAQ">Technical FAQ</a></li>
+									    <li class="content-small"><a href="/code-examples" aria-label="Code Examples">Code Examples</a></li>
+									    <li class="content-small"><a href="/pages/accessibility/" aria-label="Accessibility">Accessibility</a></li>
+									    <li class="content-small"><a href="/web-stories/" aria-label="Web Stories">Web Stories</a></li>
+									    <li class="content-small"><a href="/webinars/" aria-label="Webinars">Webinars</a></li>
+									    <li class="content-small"><a href="/resource-center/" aria-label="Resource Center">Resource Center</a></li>
+						    </ul>
+							    <div class=" content-medium">SUPPORT</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="/forums" aria-label="Community Forum">Community Forum</a></li>
+									    <li class="content-small"><a href="https://support.syncfusion.com/kb" aria-label="Knowledge Base">Knowledge Base</a></li>
+									    <li class="content-small"><a href="https://support.syncfusion.com/create" aria-label="Contact Support">Contact Support</a></li>
+									    <li class="content-small"><a href="/feedback" target="_blank" aria-label="Features and Bugs">Features & Bugs</a></li>
+									    <li class="content-small"><a href="https://s3.amazonaws.com/files2.syncfusion.com/web/support/sla/35.1/syncfusion_software_support_sla.pdf" aria-label="SLA">SLA</a></li>
+									    <li class="content-small"><a href="/support/product-lifecycle/estudio" aria-label="Product Life Cycle">Product Life Cycle</a></li>
+						    </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 hidden-xs content-list alternatives-section">
+							    <div class=" content-medium">AI RESOURCES</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="https://ai.syncfusion.com/" aria-label="Set Up AI Agent">Set Up AI Agent</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/explore/agent-skills/" aria-label="Agent Skills">Agent Skills</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/explore/mcp-servers/" aria-label="MCP Servers">MCP Servers</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/explore/a2ui/" aria-label="A2UI">A2UI</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/explore/ai/" aria-label="AI-Powered Components">AI-Powered Components</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/explore/ai-agent-tools-for-document-sdk/" aria-label="Agent Tools for Document SDK">Agent Tools for Document SDK</a></li>
+						    </ul>
+							    <div class=" content-medium">WHY WE STAND OUT</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="/pages/blazor-competitive-upgrade/" aria-label="Blazor Competitive Upgrade">Blazor Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/angular-competitive-upgrade/" aria-label="Angular Competitive Upgrade">Angular Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/javascript-competitive-upgrade/" aria-label="JavaScript Competitive Upgrade">JavaScript Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/react-competitive-upgrade/" aria-label="React Competitive Upgrade">React Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/vue-competitive-upgrade/" aria-label="Vue Competitive Upgrade">Vue Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/maui-competitive-upgrade/" aria-label=".NET MAUI Competitive Upgrade">.NET MAUI Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/winforms-competitive-upgrade/" aria-label="WinForms Competitive Upgrade">WinForms Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/wpf-competitive-upgrade/" aria-label="WPF Competitive Upgrade">WPF Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/pdf-library-competitive-upgrade/" aria-label="PDF Competitive Upgrade">PDF Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/word-library-competitive-upgrade/" aria-label="Word Competitive Upgrade">Word Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/excel-library-competitive-upgrade/" aria-label="Excel Competitive Upgrade">Excel Competitive Upgrade</a></li>
+									    <li class="content-small"><a href="/pages/powerpoint-library-competitive-upgrade/" aria-label="PPT Competitive Upgrade">PPT Competitive Upgrade</a></li>
+						    </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 hidden-xs content-list company-footer-section">
+							    <div class=" content-medium">COMPANY</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="/company/about-us" aria-label="About Us">About Us</a></li>
+									    <li class="content-small"><a href="https://www.syncfusion.com/people-of-syncfusion/" aria-label="People of Syncfusion">People of Syncfusion</a></li>
+									    <li class="content-small"><a href="/company/about-us/customerlist" aria-label="Customers">Customers</a></li>
+									    <li class="content-small"><a rel="noopener" href="https://www.syncfusion.com/blogs/" aria-label="Blog">Blog</a></li>
+									    <li class="content-small"><a href="/company/news-press-release" aria-label="News and Events">News & Events</a></li>
+									    <li class="content-small"><a href="/careers/" aria-label="Careers">Careers</a></li>
+									    <li class="content-small"><a href="/careers/internship/" aria-label="Internship">Internship</a></li>
+									    <li class="content-small"><a href="/company/partners" aria-label="Partners">Partners</a></li>
+						    </ul>
+							    <div class=" content-medium">LEARNING</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small"><a href="/demos" aria-label="Demos">Demos</a></li>
+									    <li class="content-small"><a rel="noopener" href="https://help.syncfusion.com/" target="_blank" aria-label="Documentation">Documentation</a></li>
+									    <li class="content-small"><a rel="noopener" href="https://www.syncfusion.com/blogs/" aria-label="Blog">Blog</a></li>
+									    <li class="content-small"><a href="/tutorial-videos" aria-label="Tutorial Videos">Tutorial Videos</a></li>
+									    <li class="content-small"><a href="/self-service-demo/" aria-label="Video Guides">Video Guides</a></li>
+									    <li class="content-small"><a href="https://showcase.syncfusion.com" aria-label="Showcase Apps">Showcase Apps</a></li>
+									    <li class="content-small"><a href="/products/whatsnew" aria-label="What's New">What's New</a></li>
+									    <li class="content-small"><a href="/products/roadmap" aria-label="Roadmap">Roadmap</a></li>
+									    <li class="content-small"><a href="/products/release-history" aria-label="Release History">Release History</a></li>
+						    </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 hidden-xs content-list contact-footer-section">
+							    <div class=" content-medium">CONTACT US</div>
+						    <ul class="list-unstyled">
+									    <li class="content-small">Fax: +1 919.573.0306</li>
+									    <li class="content-small">US: +1 919.481.1974</li>
+									    <li class="content-small">UK: +44 20 7084 6215</li>
+									    <li class="content-small">Toll Free (USA):</li>
+									    <li class="content-small">1-888-9DOTNET</li>
+									    <li class="content-small"><a href="/cdn-cgi/l/email-protection#aad9cbc6cfd9ead9d3c4c9ccdfd9c3c5c484c9c5c7" class="contact-mail" aria-label="sales@syncfusion.com"><span class="__cf_email__" data-cfemail="87f4e6ebe2f4c7f4fee9e4e1f2f4eee8e9a9e4e8ea">[email&#160;protected]</span></a></li>
+									    <li class="content-small"><a href="https://wa.me/19842173455" target="_blank" rel="noopener" class="whatsapp-link" aria-label="WhatsApp"><img width="141" height="48" src="https://cdn.syncfusion.com/content/images/footer-icons/WhatsApp.webp" alt="WhatsApp" class="whatsapp-img" loading="lazy" /></a></li>
+									    <li class="content-small"><div class="enterprise-security"><item class="enterprise-title">ENTERPRISE SECURITY</item><item class="enterprise-logos"><img width="56" height="56" src="https://cdn.syncfusion.com/content/images/footer-icons/GDPR_Logo.png" alt="GDPR" class="enterprise-logo" loading="lazy" /><img width="56" height="56" src="https://cdn.syncfusion.com/content/images/footer-icons/AICPA_Logo.png" alt="AICPA SOC" class="enterprise-logo" loading="lazy" /></item></div></li>
+						    </ul>
+                    </div>
+        </div>
+    </div>
+
+<div id="footer-bottom">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-9 hidden-xs content-small ">
+                <div class="footer-syncfusion-logo">
+                    <a title="Syncfusion" aria-label="Syncfusion logo" href="/">
+                        <img src="https://cdn.syncfusion.com/content/images/Contact-us/primary_logo.svg" alt="syncfusion-logo" class="sync-logo-img" loading="lazy" >
+                    </a>
+                </div>
+                <div class="link policystyle">
+                    <a class="social-link" href="/legal/privacy-policy/">Privacy Policy</a>
+                    <a class="social-link" href="/legal/cookie-policy/">Cookie Policy</a>
+                    <a class="social-link" href="/legal/website-terms-of-use/">Website Terms of Use</a>
+                    <a class="social-link" href="/legal/security-policy/">Security Policy</a>
+                    <a class="social-link" href="/legal/responsible-disclosure/">Responsible Disclosure</a>
+                    <a class="social-link" href="/legal/ethics-policy/">Ethics Policy</a>
+                </div>
+
+                <div id="copyright-desktop">
+                    <a class="copyright-link" href="/copyright">Copyright © 2001 - 2026 Syncfusion<sup class="trademark">&reg;</sup>, Inc. All Rights Reserved. || Trademarks</a>
+                </div>
+            </div>
+            <div class="col-sm-3 hidden-xs footer-icons-section">
+                    <ul class="footer-icon-desktop">
+                        <li>
+                            <a rel="nofollow" class="social-icon" id="footer_icon_facebook_desktop" target="_blank" href="https://www.facebook.com/Syncfusion">
+                                <img width="32" height="32" alt="facebook-icon-desktop" src="https://cdn.syncfusion.com/content/images/footer-icons/facebook-icon.svg" loading="lazy" />
+                            </a>
+                            <p class="social-icon-count">39K+</p>
+                        </li>
+                        <li>
+                            <a rel="nofollow" class="social-icon" id="footer_icon_twitter_desktop" target="_blank" href="https://x.com/Syncfusion">
+                                <img width="32" height="32" alt="twitter-icon-desktop" src="https://cdn.syncfusion.com/content/images/footer-icons/twitter-icon.svg" loading="lazy" />
+                            </a>
+                            <p class="social-icon-count">12K+</p>
+                        </li>
+                        <li>
+                            <a rel="nofollow" class="social-icon" id="footer_icon_linkedin_desktop" target="_blank" href="https://www.linkedin.com/company/syncfusion?trk=top_nav_home">
+                                <img width="32" height="32" alt="linkedin-icon-desktop" src="https://cdn.syncfusion.com/content/images/footer-icons/linkedin-icon.svg" loading="lazy" />
+                            </a>
+                            <p class="social-icon-count">15K+</p>
+                        </li>
+                        <li>
+                            <a rel="nofollow" class="social-icon" id="footer_icon_youtube_desktop" target="_blank" href="https://www.youtube.com/SyncfusionInc?sub_confirmation=1">
+                                <img width="32" height="32" alt="youtube-icon-desktop" src="https://cdn.syncfusion.com/content/images/footer-icons/youtube-icon.svg" loading="lazy" />
+                            </a>
+                            <p class="social-icon-count">27K+</p>
+                        </li>
+                    </ul>
+					<ul class="footer-icon-desktop">
+                        <li>
+                            <a rel="nofollow" class="social-icon" id="footer_icon_pinterest_desktop" target="_blank" href="https://www.pinterest.com/syncfusionofficial/">
+                                <img width="32" height="32" alt="pinterest-icon-desktop" src="https://cdn.syncfusion.com/content/images/footer-icons/pinterest-icon.svg" loading="lazy" />
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="nofollow" class="social-icon" id="footer_icon_instagram_desktop" target="_blank" href="https://www.instagram.com/syncfusionofficial/">
+                                <img width="32" height="32" alt="instagram-icon-desktop" src="https://cdn.syncfusion.com/content/images/footer-icons/instagram-icon.svg" loading="lazy" />
+                            </a>
+                        </li>
+
+                        <li>
+                            <a rel="nofollow" class="social-icon" id="footer_icon_threads_desktop" target="_blank" href="https://www.threads.net/syncfusionofficial">
+                                <img width="32" height="32" alt="threads-icon-desktop" src="https://cdn.syncfusion.com/content/images/footer-icons/threads-icon.svg" loading="lazy" />
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+
+            
+            <div class="visible-xs mobile-footer text-center">
+                <div class="mobile-footer-header"> <b>CONTACT US</b></div>
+                <ul class="footer-contact-fax">
+                    <li class="list-content">Fax: +1 919.573.0306</li>
+                    <li class="list-content">US: +1 919.481.1974</li>
+                    <li class="list-content">UK: +44 20 7084 6215</li>
+                </ul>
+	            <ul class="footer-contact-fax">
+	                <li class="list-content toll-free">Toll Free (USA):</li>
+	                <li class="list-content">1-888-9DOTNET</li>
+	            </ul>
+                <ul class="footer-contact-mail">
+                    <li class="list-content"><a href="/cdn-cgi/l/email-protection#abd8cac7ced8ebd8d2c5c8cdded8c2c4c585c8c4c6"><span class="__cf_email__" data-cfemail="483b29242d3b083b31262b2e3d3b212726662b2725">[email&#160;protected]</span></a></li>
+                </ul>
+                <ul class="footer-contact-whatsApp">
+                    <li class="list-content">
+                        <a href="https://wa.me/19842173455" target="_blank" rel="noopener" class="whatsapp-link">
+                            <img width="141" height="48" src="https://cdn.syncfusion.com/content/images/footer-icons/WhatsApp.webp" alt="WhatsApp" class="whatsapp-img" loading="lazy" />
+                        </a>
+                    </li>
+                </ul>
+                <!-- Enterprise Security section (mobile) -->
+                 <ul class="enterprise-security text-center">
+                     <li class="content-medium enterprise-title">ENTERPRISE SECURITY</li>
+                     <li class="enterprise-logos">
+                         <img width="56" height="56" src="https://cdn.syncfusion.com/content/images/footer-icons/GDPR_Logo.png" alt="GDPR" class="enterprise-logo" loading="lazy" />
+                         <img width="56" height="56" src="https://cdn.syncfusion.com/content/images/footer-icons/AICPA_Logo.png" alt="AICPA SOC" class="enterprise-logo" loading="lazy" />
+                     </li>
+                 </ul>
+                <ul class="footer-icon">
+                    <li>
+                        <a rel="nofollow" class="social-icon" id="footer_icon_facebook" target="_blank" href="https://www.facebook.com/Syncfusion">
+                            <img width="32" height="32" alt="facebook-icon" src="https://cdn.syncfusion.com/content/images/footer-icons/facebook-icon.svg" loading="lazy" />
+                        </a>
+                        <p class="social-icon-count">39K+</p>
+                    </li>
+                    <li>
+                        <a rel="nofollow" class="social-icon" id="footer_icon_twitter" target="_blank" href="https://x.com/Syncfusion">
+                            <img width="32" height="32" alt="twitter-icon" src="https://cdn.syncfusion.com/content/images/footer-icons/twitter-icon.svg" loading="lazy" />
+                        </a>
+                        <p class="social-icon-count">12K+</p>
+                    </li>
+                    <li>
+                        <a rel="nofollow" class="social-icon" id="footer_icon_linkedin" target="_blank" href="https://www.linkedin.com/company/syncfusion?trk=top_nav_home">
+                            <img width="32" height="32" alt="linkedin-icon" src="https://cdn.syncfusion.com/content/images/footer-icons/linkedin-icon.svg" loading="lazy" />
+                        </a>
+                        <p class="social-icon-count">15K+</p>
+                    </li>
+                    <li>
+                        <a rel="nofollow" class="social-icon" id="footer_icon_youtube" target="_blank" href="https://www.youtube.com/SyncfusionInc?sub_confirmation=1">
+                            <img width="32" height="32" alt="youtube-icon" src="https://cdn.syncfusion.com/content/images/footer-icons/youtube-icon.svg" loading="lazy" />
+                        </a>
+                        <p class="social-icon-count">27K+</p>
+                    </li>
+                </ul>
+				<ul class="footer-icon">
+                    <li>
+                        <a rel="nofollow" class="social-icon" id="footer_icon_pinterest" target="_blank" href="https://www.pinterest.com/syncfusionofficial/">
+                            <img width="32" height="32" alt="pinterest-icon" src="https://cdn.syncfusion.com/content/images/footer-icons/pinterest-icon.svg" loading="lazy" />
+                        </a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" class="social-icon" id="footer_icon_instagram" target="_blank" href="https://www.instagram.com/syncfusionofficial/">
+                            <img width="32" height="32" alt="instagram-icon" src="https://cdn.syncfusion.com/content/images/footer-icons/instagram-icon.svg" loading="lazy" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a rel="nofollow" class="social-icon" id="footer_icon_threads" target="_blank" href="https://www.threads.net/syncfusionofficial">
+                            <img width="32" height="32" alt="threads-icon" src="https://cdn.syncfusion.com/content/images/footer-icons/threads-icon.svg" loading="lazy" />
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer-syncfusion-logo">
+                    <a title="Syncfusion" aria-label="Syncfusion logo" href="/">
+                        <img src="https://cdn.syncfusion.com/content/images/Contact-us/primary_logo.svg" alt="syncfusion-logo" class="sync-logo-img" loading="lazy">
+                    </a>
+                </div>
+                <div class="copyright">
+                    <div class="link policystyle">
+                        <a class="social-link" href="/legal/privacy-policy/">Privacy Policy</a>
+                        <a class="social-link" href="/legal/cookie-policy/">Cookie Policy</a>
+                        <a class="social-link" href="/legal/website-terms-of-use/">Website Terms of Use</a><br/>
+                        <a class="social-link" href="/legal/security-policy/">Security Policy</a>
+                        <a class="social-link" href="/legal/responsible-disclosure/">Responsible Disclosure</a>
+                        <a class="social-link" href="/legal/ethics-policy/">Ethics Policy</a>
+                    </div>
+
+                    <div id="copyright-link">
+                        <a class="social-link" href="/copyright">Copyright © 2001 - 2026 Syncfusion<sup class="trademark">&reg;</sup>, Inc. All Rights Reserved. || Trademarks</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+     
+
+    <div id="feedbackButton">
+        <img style="width:100%; height:100%" src="https://cdn.syncfusion.com/content/images/common/feedback-icon-v2.svg" data-backdrop="false" data-toggle="modal" data-target="#feedbacks-dialogue_wrapper" alt="Syncfusion Feedback" />
+    </div>
+    <div id="feedbacks-dialogue" class="hide"></div>
+    
+<div id="feedbacks-dialogue_wrapper" class="modal fade" data-easein="slideLeftIn" role="dialog">
+    <div class="modal-dialogs">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+            <div id="feedbackcloseicon" data-dismiss="modal" data-easein="slideLeftIn" class="feedbackClose"></div>
+            <div class="modal-header">
+                <div id="feedback-title">Feedback & Questions</div>
+                <div id="feedbackDescription" class="content-extra-smalls"> Please share your comments and questions with us</div>
+            </div>
+            <form id="feedbackForm" method="post" action="Account/UpdateFeedbackForm" class="modal-body">
+                <input name="__RequestVerificationToken" type="hidden" value="OCRZiCyCutPFD_yxrcEziVRdXmsbv-TFPmE9lcle0VuJzmBAIr43Qc_UUL8eWcOe-1cO12cl1Cg_g-dDEcSRbrL5dL0NO1AFmbLbeUXW6PrykHfpnVsDVKhJs2vEtrSy_1-2zA2" />
+                <div class="feedback-fields">
+                    <label class="feedback-label content-extra-smalls">Name *</label>
+                    <div class=" content-extra-smalls">
+                        <input type="text" id="feedback-dialogue-name" class="form-control feedback-inputs" autofocus="autofocus" maxlength="50" />
+                        <span class="error-validation" id="name-error"></span>
+                    </div>
+                </div>
+                <div class="feedback-fields">
+                    <label class="feedback-label content-extra-smalls">Email *</label>
+                    <div class=" content-extra-smalls">
+                        <input type="text" id="feedback-dialogue-email" class="form-control feedback-inputs" maxlength="100" />
+                        <span class="error-validation" id="email-error"></span>
+                    </div>
+                </div>
+                <div class="feedback-fields">
+                    <label class="feedback-label content-extra-smalls">Company *</label>
+                    <div class=" content-extra-smalls">
+                        <input type="text" id="feedback-dialogue-company" class="form-control feedback-inputs" maxlength="50" />
+                        <span class="error-validation" id="company-error"></span>
+                    </div>
+                </div>
+                <div class="feedback-fields">
+                    <label class="feedback-label content-extra-smalls">Message *</label>
+                    <div class=" content-extra-smalls">
+                        <textarea id="feedback-message" class="form-control feedback-inputs" rows="5" name="message" maxlength="10000" cols="10"></textarea>
+                        <span class="error-validation" id="message-error"></span>
+                    </div>
+                </div>
+                <div id="notification"></div>
+                <div class="feedback-fields">
+                    <input type="checkbox" id="cancontact-feed" class="form-control feedback-inputs">
+                    <span class="content-extra-smalls" id="cancontact-text">I would like for an account to be created and to be contacted regarding this message. No further action will be taken. <a style="text-decoration:none;" href="/legal/privacy-policy/">Privacy policy</a>, and <a style="text-decoration:none;" href="/legal/cookie-policy/">Cookie Policy</a>.</span>
+                </div>
+                <div class="feedButton">
+                    <input type="button" id="submitButton" name="submit" value="SUBMIT" class="small-btn btn " />
+                </div>
+
+            </form>
+
+            <div class="thankyou-message hide">
+                
+                <div class="feedback-confirmation">Thank you for your feedback and comments. We will process this request shortly and get back to you if required. </div>
+                <div>
+                    <input type="button" name="close" value="Close" id="feedbackcloseNotification" class="feedbackClose small-btn btn" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    
+ 
+    
+    <link rel="stylesheet"
+          href="https://cdn.syncfusion.com/content/stylesheets/components/Stack1.3.7/layoutfont_cdn_v1.min.css?v1"
+          media="print"
+          onload="this.media='all'">
+
+     
+
+    
+
+    <noscript>
+        
+        <link rel="stylesheet"
+              href="https://cdn.syncfusion.com/content/stylesheets/components/Stack1.3.7/layoutfont_cdn_v1.min.css">
+
+        <link rel="stylesheet"
+              href="https://cdn.syncfusion.com/content/stylesheets/components/bootstrap/BootstrapLayoutFooterV5.min.css">
+    </noscript>
+
+        
+    <input type="hidden" id="userEmail" name="userEmail" value="" />
+
+
+
+    
+
+    
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/Scripts/jQuery/jquery-3.7.1.min.js?v1"></script>
+    <script src="/Scripts/Components/Bootstrap/bootstrap3.7.1.min.js?v1" defer></script>
+
+    
+
+    <script src="https://cdn.syncfusion.com/scripts/bootstrap/BootstrapLayoutV75.min.js" defer></script>
+    
+    <script src="https://cdn.syncfusion.com/scripts/bootstrap/syncfusion-main/HeaderMenuInitialV59.min.js" defer></script>
+    
+    <script src="https://cdn.syncfusion.com/scripts/bootstrap/FeedbackBootstrapV17.min.js" defer></script>
+
+    <div id="getservertime" hidden></div>
+
+    
+    <script src="https://cdn.syncfusion.com/scripts/components/Stack1.3.7/flickity_v2.min.js" defer></script>
+    <script src="https://cdn.syncfusion.com/scripts/components/Others/jquery.matchHeight.js" defer></script>
+    <script src="https://cdn.syncfusion.com/scripts/components/smooth-scroll/SmoothScroll.min.js" defer></script>
+
+    
+
+    <script src="https://cdn.syncfusion.com/scripts/homev1/master/Home_v33.min.js" defer></script>
+
+    
+    <script src="https://cdn.syncfusion.com/scripts/components/video-pop-up/master/VideoPopUpV3.min.js" defer></script>
+
+
+    <script src="/Scripts/jQuery/jquery.sessionall.min.js?v1" defer></script>
+
+    
+    
+    
+    <script src="https://cdn.syncfusion.com/scripts/Home/BootstrapLayout/Master/BootstrapLayoutEssentialScripts_v34.min.js?v34" defer></script>
+
+    <script type="text/javascript" async>
+        var om_load_webfont = false;
+    </script>
+
+    <input type="hidden" id="isAuthenticatedStatus" value="false" />
+    <!--
+          This file (InfoBanner.min.js) includes all the necessary CSS, HTML, and JavaScript
+          related to the webinar banner and maintenance banner functionality.
+          webinar banner and maintenance banner changes should be made in this file.
+        -->
+        <script src="https://cdn.syncfusion.com/scripts/bootstrap/InfoBannerV22.min.js" defer></script>
+
+
+        <!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const events = ["mousemove", "scroll", "keydown", "touchstart"];
+
+                function loadOptinMonster() {
+                    // Remove all listeners so it runs only once
+                    events.forEach(event => document.removeEventListener(event, loadOptinMonster));
+
+                    // Inject OptinMonster script dynamically
+                    (function (d, u, ac) {
+                        var s = d.createElement('script');
+                        s.type = 'text/javascript';
+                        s.src = 'https://a.omappapi.com/app/js/api.min.js';
+                        s.async = true;
+                        s.dataset.user = u;
+                        s.dataset.account = ac;
+                        d.getElementsByTagName('head')[0].appendChild(s);
+                    })(document, 54893, 61695);
+                }
+
+                // Add listeners for user interaction
+                events.forEach(event => document.addEventListener(event, loadOptinMonster, { once: true }));
+            });
+        </script>
+        <!-- / https://optinmonster.com -->
+            <script>
+            (async function () {
+                try {
+                    const response = await fetch(window.location.href, {
+                        method: "HEAD",
+                        cache: "no-store"
+                    });
+
+                    const cacheStatus = response.headers.get("CF-Cache-Status");
+                    const age = parseInt(response.headers.get("Age") || "0", 10);
+
+                    if (cacheStatus === "HIT" && age > 10) {
+                        const script = document.createElement("script");
+                        script.src = "https://cdn.syncfusion.com/scripts/bootstrap/analytics-tracking-v3.min.js";
+                        script.defer = true;
+                        document.head.appendChild(script);
+                    }
+                } catch (e) {
+                }
+            })();
+        </script>
+    <script>
+        const sessionCheckEvents = ['mousemove', 'scroll', 'keydown', 'touchstart'];
+        const triggerSessionCheck = () => {
+            var isUserAuthenicated = 'False';
+
+            if (isUserAuthenicated == 'True') {
+                    $.ajax({
+                        url: "/account/session-deactivation",
+                        type: 'POST',
+                        success: function (result) {
+                            if (result.ReturnUrl != "" && (result.ReturnUrl == "/account/login" || result.ReturnUrl == "/succinctly-free-ebooks")) {
+                                window.location.href = result.ReturnUrl;
+                            }
+                        },
+                        error: function (result) {
+                        }
+                    });
+            }
+            sessionCheckEvents.forEach(event => removeEventListener(event, triggerSessionCheck));
+        };
+        sessionCheckEvents.forEach(event => addEventListener(event, triggerSessionCheck, { once: true, passive: true }));
+        (function () {
+
+                function ensureCookieYes() {
+
+                    // If Zaraz has already injected the CookieYes script, do nothing.
+                    if (document.getElementById("cookieyes")) {
+                        return;
+                    }
+
+                    var script = document.createElement("script");
+                    script.id = "cookieyes";
+                    script.type = "text/javascript";
+                    script.src = "https://cdn-cookieyes.com/client_data/a579e010cc45dfd587718a85/script.js";
+                    script.async = true;
+
+                    document.head.appendChild(script);
+                }
+
+                function initialize() {
+                    if ("requestIdleCallback" in window) {
+                        requestIdleCallback(ensureCookieYes, { timeout: 3000 });
+                    } else {
+                        setTimeout(ensureCookieYes, 3000);
+                    }
+                }
+
+                if (document.readyState === "complete") {
+                    initialize();
+                } else {
+                    window.addEventListener("load", initialize);
+                }
+
+            })();
+        var serverTimeElement = document.getElementById("getservertime");
+
+        if (serverTimeElement) {
+            try {
+                var formatter = new Intl.DateTimeFormat("en-US", {
+                    timeZone: "America/New_York",
+                    year: "numeric",
+                    month: "2-digit",
+                    day: "2-digit",
+                    hour: "2-digit",
+                    minute: "2-digit",
+                    second: "2-digit",
+                    hour12: false
+                });
+
+                var estTime = formatter.format(new Date()).replace(",", "");
+                serverTimeElement.textContent = estTime;
+            }
+            catch (e) {
+            }
+        }
+    </script>
+</body>
+</html>
