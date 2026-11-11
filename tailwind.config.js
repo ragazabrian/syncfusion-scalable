@@ -27,12 +27,12 @@ export default {
         },
         text: {
           primary: '#f5f5f8',
-          muted: '#8e8e93',
-          dim: '#636366',
+          muted: '#ababab',
+          dim: '#8e8e93',
         }
       },
       fontFamily: {
-        sans: ['"DM Sans"', 'Inter', 'sans-serif'],
+        sans: ['"Satoshi"', '"DM Sans"', 'Inter', 'sans-serif'],
         serif: ['"Instrument Serif"', 'Georgia', 'serif'],
         mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
       },
